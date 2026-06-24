@@ -1,4 +1,4 @@
-# Signal Board
+# Outpost
 
 A read-only daily scanner for the S&P 500: moving-average crossovers, MACD
 crossovers, RSI extremes, and a handful of basic candlestick patterns
@@ -32,7 +32,7 @@ might be worth a closer look. You stay the one deciding what to do with it.
    ```
    git init
    git add .
-   git commit -m "Initial signal board"
+   git commit -m "Initial outpost"
    git branch -M main
    git remote add origin https://github.com/<your-username>/<repo-name>.git
    git push -u origin main

@@ -23,6 +23,8 @@ OUTPUT_PATH = "docs/data.json"
 LOOKBACK_PERIOD = "14mo"  # need 200+ trading days for SMA200
 BATCH_SIZE = 50
 RSI_PERIOD = 14
+PULLBACK_MIN_PCT = 3.0
+PULLBACK_MAX_PCT = 8.0
 
 
 def get_sp500_tickers() -> list[str]:
@@ -146,6 +148,15 @@ def detect_signals(df: pd.DataFrame, ticker: str) -> list[dict]:
     if last["RSI14"] > 70:
         signals.append({"type": "RSI Overbought", "detail": f"RSI14 = {last['RSI14']:.1f}", "bias": "bearish"})
 
+    prior_high = float(df["Close"].iloc[-31:-1].max())
+    if float(last["Close"]) > prior_high:
+        signals.append({"type": "30-Day High", "detail": f"Closed above 30-day high of ${prior_high:.2f}", "bias": "bullish"})
+
+    peak_7d = float(df["Close"].iloc[-8:-1].max())
+    pct_off = (peak_7d - float(last["Close"])) / peak_7d * 100
+    if PULLBACK_MIN_PCT <= pct_off <= PULLBACK_MAX_PCT:
+        signals.append({"type": "Pullback", "detail": f"{pct_off:.1f}% below 7-day high of ${peak_7d:.2f}", "bias": "bullish"})
+
     for pattern in detect_candlestick_patterns(df):
         signals.append({
             "type": pattern,
@@ -166,11 +177,71 @@ def chunked(seq, size):
         yield seq[i:i + size]
 
 
+def detect_setups(df: pd.DataFrame, ticker: str) -> dict | None:
+    """Check whether today's bar completes a pullback-in-uptrend setup.
+
+    Required sequence within the last 7 trading days:
+    1. MACD Bullish Crossover (earliest occurrence used)
+    2. 30-Day High on or after that crossover
+    3. Today: Pullback (3-8% below 7-day peak)
+    4. Today: Hammer or Bullish Engulfing
+    """
+    if len(df) < 205:
+        return None
+
+    n = len(df)
+
+    # 1. Earliest MACD bullish crossover in the last 7 bars
+    macd_cross_pos = None
+    for i in range(n - 7, n):
+        if df.iloc[i - 1]["MACD"] < df.iloc[i - 1]["MACD_Signal"] and df.iloc[i]["MACD"] >= df.iloc[i]["MACD_Signal"]:
+            macd_cross_pos = i
+            break
+
+    if macd_cross_pos is None:
+        return None
+
+    # 2. 30-Day High on or after the crossover
+    high_pos = None
+    for i in range(macd_cross_pos, n):
+        prior_high = float(df["Close"].iloc[i - 30:i].max())
+        if float(df.iloc[i]["Close"]) > prior_high:
+            high_pos = i
+            break
+
+    if high_pos is None:
+        return None
+
+    # 3. Pullback today
+    peak_7d = float(df["Close"].iloc[-8:-1].max())
+    today_close = float(df.iloc[-1]["Close"])
+    pct_off = (peak_7d - today_close) / peak_7d * 100
+    if not (PULLBACK_MIN_PCT <= pct_off <= PULLBACK_MAX_PCT):
+        return None
+
+    # 4. Reversal candle today
+    patterns = detect_candlestick_patterns(df)
+    reversal = [p for p in patterns if p in {"Hammer", "Bullish Engulfing"}]
+    if not reversal:
+        return None
+
+    return {
+        "ticker": ticker,
+        "price": round(today_close, 2),
+        "date": str(df.iloc[-1].name.date()),
+        "macd_date": str(df.iloc[macd_cross_pos].name.date()),
+        "high_date": str(df.iloc[high_pos].name.date()),
+        "reversal_signal": reversal[0],
+        "pullback_detail": f"{pct_off:.1f}% below 7-day high of ${peak_7d:.2f}",
+    }
+
+
 def main():
     tickers = get_sp500_tickers()
     print(f"Scanning {len(tickers)} tickers...")
 
     all_signals = []
+    all_setups = []
     errors = []
 
     for batch in chunked(tickers, BATCH_SIZE):
@@ -200,6 +271,9 @@ def main():
                     continue
                 df = compute_indicators(df)
                 all_signals.extend(detect_signals(df, ticker))
+                setup = detect_setups(df, ticker)
+                if setup:
+                    all_setups.append(setup)
             except Exception as e:
                 errors.append(f"{ticker}: {e}")
 
@@ -209,14 +283,16 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "ticker_count": len(tickers),
         "signal_count": len(all_signals),
+        "setup_count": len(all_setups),
         "signals": sorted(all_signals, key=lambda s: s["ticker"]),
-        "errors": errors[:50],  # cap so the file doesn't balloon on a bad day
+        "setups": sorted(all_setups, key=lambda s: s["ticker"]),
+        "errors": errors[:50],
     }
 
     with open(OUTPUT_PATH, "w") as f:
         json.dump(output, f, indent=2)
 
-    print(f"Done. {len(all_signals)} signals across {len(tickers)} tickers. {len(errors)} errors.")
+    print(f"Done. {len(all_signals)} signals, {len(all_setups)} setups across {len(tickers)} tickers. {len(errors)} errors.")
 
 
 if __name__ == "__main__":

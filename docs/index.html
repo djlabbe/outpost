@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Signal Board</title>
+<title>Outpost</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -183,6 +183,105 @@
     line-height: 1.6;
   }
 
+  .tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .tab {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 9px 18px;
+    background: transparent;
+    border: none;
+    color: var(--paper-dim);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .tab:hover { color: var(--paper); }
+  .tab.active { color: var(--paper); border-bottom-color: var(--paper); }
+
+  .tab-badge {
+    display: inline-block;
+    background: var(--bullish-dim);
+    color: var(--bullish);
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 999px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  .setups-table td.signal-col { white-space: nowrap; }
+  .setups-table td.dates-col { color: var(--paper-dim); font-size: 12px; line-height: 1.6; }
+  .setups-table td.pullback-col { color: var(--paper-dim); }
+
+  .legend {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .legend-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    background: var(--bg-raised);
+    border: none;
+    padding: 11px 14px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    cursor: pointer;
+    text-align: left;
+  }
+  .legend-toggle:hover { color: var(--paper); }
+  .legend-toggle .arrow { font-size: 10px; margin-left: auto; transition: transform 0.2s; }
+  .legend-toggle.open .arrow { transform: rotate(180deg); }
+
+  .legend-body {
+    display: none;
+    padding: 16px 14px;
+    border-top: 1px solid var(--line);
+  }
+  .legend-body.open { display: block; }
+
+  .legend-group { margin-bottom: 14px; }
+  .legend-group:last-child { margin-bottom: 0; }
+
+  .legend-group-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    margin-bottom: 8px;
+  }
+
+  .legend-items { display: flex; flex-direction: column; gap: 6px; }
+
+  .legend-item {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  .legend-item .badge { flex-shrink: 0; font-size: 11px; padding: 3px 8px; }
+  .legend-item .legend-desc { color: var(--paper-dim); line-height: 1.4; }
+
   @media (max-width: 640px) {
     .detail { display: none; }
     .controls .search { width: 100%; margin-left: 0; }
@@ -193,7 +292,7 @@
 <div class="wrap">
   <header>
     <p class="eyebrow">Daily Signal Scan · S&amp;P 500</p>
-    <h1>Signal Board</h1>
+    <h1>Outpost</h1>
     <div class="meta-row">
       <span>Last run: <strong id="meta-generated">—</strong></span>
       <span>Tickers scanned: <strong id="meta-tickers">—</strong></span>
@@ -201,12 +300,69 @@
     </div>
   </header>
 
+  <div class="tabs">
+    <button class="tab active" data-tab="signals">Signals</button>
+    <button class="tab" data-tab="setups">Setups <span class="tab-badge" id="setup-count-badge"></span></button>
+  </div>
+
+  <div id="panel-signals">
+
   <div class="controls">
     <button class="chip active" data-bias="all">All</button>
     <button class="chip" data-bias="bullish">Bullish</button>
     <button class="chip" data-bias="bearish">Bearish</button>
     <button class="chip" data-bias="neutral">Neutral</button>
     <input class="search" id="search" type="text" placeholder="Filter by ticker…">
+  </div>
+
+  <div class="legend">
+    <button class="legend-toggle" id="legend-toggle">Signal Legend <span class="arrow">▾</span></button>
+    <div class="legend-body" id="legend-body">
+
+      <div class="legend-group">
+        <div class="legend-group-title">Moving Averages</div>
+        <div class="legend-items">
+          <div class="legend-item"><span class="badge bullish">Golden Cross</span><span class="legend-desc">The 50-day SMA crossed above the 200-day SMA — a long-term shift from downtrend to uptrend.</span></div>
+          <div class="legend-item"><span class="badge bearish">Death Cross</span><span class="legend-desc">The 50-day SMA crossed below the 200-day SMA — a long-term shift from uptrend to downtrend.</span></div>
+        </div>
+      </div>
+
+      <div class="legend-group">
+        <div class="legend-group-title">MACD</div>
+        <div class="legend-items">
+          <div class="legend-item"><span class="badge bullish">MACD Bullish Crossover</span><span class="legend-desc">The MACD line (EMA12 − EMA26) crossed above its 9-day signal line — short-term momentum turning positive.</span></div>
+          <div class="legend-item"><span class="badge bearish">MACD Bearish Crossover</span><span class="legend-desc">The MACD line crossed below its signal line — short-term momentum turning negative.</span></div>
+        </div>
+      </div>
+
+      <div class="legend-group">
+        <div class="legend-group-title">Trend Structure</div>
+        <div class="legend-items">
+          <div class="legend-item"><span class="badge bullish">30-Day High</span><span class="legend-desc">Closed above the highest close of the prior 30 trading days — price is breaking out to the upside and confirming an emerging uptrend.</span></div>
+          <div class="legend-item"><span class="badge bullish">Pullback</span><span class="legend-desc">Price is 3–8% below its 7-day high — the uptrend is pausing rather than reversing, potentially offering a better entry than chasing the breakout.</span></div>
+        </div>
+      </div>
+
+      <div class="legend-group">
+        <div class="legend-group-title">RSI (14-period)</div>
+        <div class="legend-items">
+          <div class="legend-item"><span class="badge bullish">RSI Oversold</span><span class="legend-desc">RSI-14 dropped below 30 — price may have fallen too fast and could be due for a bounce.</span></div>
+          <div class="legend-item"><span class="badge bearish">RSI Overbought</span><span class="legend-desc">RSI-14 rose above 70 — price may have risen too fast and could be due for a pullback.</span></div>
+        </div>
+      </div>
+
+      <div class="legend-group">
+        <div class="legend-group-title">Candlestick Patterns</div>
+        <div class="legend-items">
+          <div class="legend-item"><span class="badge bullish">Hammer</span><span class="legend-desc">Small body near the top of the range with a long lower wick — sellers pushed price down but buyers reclaimed most of the loss by close.</span></div>
+          <div class="legend-item"><span class="badge bullish">Bullish Engulfing</span><span class="legend-desc">A green candle whose body fully engulfs the prior red candle — buyers overpowered sellers compared to the previous session.</span></div>
+          <div class="legend-item"><span class="badge bearish">Shooting Star</span><span class="legend-desc">Small body near the bottom of the range with a long upper wick — buyers pushed price up but sellers drove it back down by close.</span></div>
+          <div class="legend-item"><span class="badge bearish">Bearish Engulfing</span><span class="legend-desc">A red candle whose body fully engulfs the prior green candle — sellers overpowered buyers compared to the previous session.</span></div>
+          <div class="legend-item"><span class="badge neutral">Doji</span><span class="legend-desc">Open and close are nearly equal, producing a tiny body — indecision between buyers and sellers; often signals a potential reversal when context supports it.</span></div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
   <table>
@@ -224,6 +380,25 @@
 
   <div class="loading" id="loading">Loading scan results…</div>
   <div class="empty" id="empty" style="display:none;">No signals match this filter.</div>
+
+  </div><!-- /panel-signals -->
+
+  <div id="panel-setups" style="display:none;">
+    <table class="setups-table">
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Entry Signal</th>
+          <th>Price</th>
+          <th>Sequence</th>
+          <th>Pullback</th>
+        </tr>
+      </thead>
+      <tbody id="setup-rows"></tbody>
+    </table>
+    <div class="empty" id="empty-setups" style="display:none;">No setups found in the last 7 days.</div>
+    <div class="loading" id="loading-setups" style="display:none;">Loading…</div>
+  </div><!-- /panel-setups -->
 
   <footer>
     Read-only scan of moving averages, MACD, RSI, and basic candlestick patterns across the S&amp;P 500.
@@ -301,6 +476,42 @@
 
   searchEl.addEventListener('input', render);
 
+  const legendToggle = document.getElementById('legend-toggle');
+  const legendBody = document.getElementById('legend-body');
+  legendToggle.addEventListener('click', () => {
+    const open = legendBody.classList.toggle('open');
+    legendToggle.classList.toggle('open', open);
+  });
+
+  // Tab switching
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const target = tab.dataset.tab;
+      document.getElementById('panel-signals').style.display = target === 'signals' ? '' : 'none';
+      document.getElementById('panel-setups').style.display = target === 'setups' ? '' : 'none';
+    });
+  });
+
+  function renderSetups(setups) {
+    const tbody = document.getElementById('setup-rows');
+    const emptyEl = document.getElementById('empty-setups');
+    tbody.innerHTML = '';
+    emptyEl.style.display = setups.length ? 'none' : 'block';
+    for (const s of setups) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="ticker">${s.ticker}</td>
+        <td class="signal-col"><span class="badge bullish">${s.reversal_signal}</span></td>
+        <td class="price">$${Number(s.price).toFixed(2)}</td>
+        <td class="dates-col">MACD cross ${s.macd_date}<br>30-day high ${s.high_date}</td>
+        <td class="pullback-col">${s.pullback_detail}</td>
+      `;
+      tbody.appendChild(tr);
+    }
+  }
+
   fetch('data.json', { cache: 'no-store' })
     .then(r => {
       if (!r.ok) throw new Error('No data.json yet');
@@ -313,6 +524,16 @@
       document.getElementById('meta-tickers').textContent = data.ticker_count;
       document.getElementById('meta-signals').textContent = data.signal_count;
       render();
+
+      const setups = data.setups || [];
+      renderSetups(setups);
+      const badge = document.getElementById('setup-count-badge');
+      if (setups.length > 0) {
+        badge.textContent = setups.length;
+        badge.style.display = '';
+      } else {
+        badge.style.display = 'none';
+      }
     })
     .catch(err => {
       loadingEl.textContent = 'No scan results yet — the workflow needs to run at least once.';
