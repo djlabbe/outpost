@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-22T21:30:00+00:00",
+  "ticker_count": 503,
+  "signal_count": 6,
+  "signals": [
+    {"type": "Golden Cross", "detail": "SMA50 crossed above SMA200", "bias": "bullish", "ticker": "AMD", "price": 187.42, "date": "2026-06-22"},
+    {"type": "RSI Oversold", "detail": "RSI14 = 26.8", "bias": "bullish", "ticker": "DOW", "price": 41.18, "date": "2026-06-22"},
+    {"type": "Bullish Engulfing", "detail": "Bullish Engulfing candlestick on the latest bar", "bias": "bullish", "ticker": "PFE", "price": 23.04, "date": "2026-06-22"},
+    {"type": "Death Cross", "detail": "SMA50 crossed below SMA200", "bias": "bearish", "ticker": "T", "price": 19.87, "date": "2026-06-22"},
+    {"type": "MACD Bearish Crossover", "detail": "MACD crossed below its signal line", "bias": "bearish", "ticker": "NKE", "price": 74.55, "date": "2026-06-22"},
+    {"type": "Doji", "detail": "Doji candlestick on the latest bar", "bias": "neutral", "ticker": "KO", "price": 68.21, "date": "2026-06-22"}
+  ],
+  "errors": []
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1B1F1D;
+    --bg-raised: #20251f;
+    --paper: #EDEAE0;
+    --paper-dim: #A9A79C;
+    --line: #3A3F3A;
+    --bullish: #5FA877;
+    --bearish: #C16B5E;
+    --neutral: #D8A23B;
+    --bullish-dim: rgba(95, 168, 119, 0.14);
+    --bearish-dim: rgba(193, 107, 94, 0.14);
+    --neutral-dim: rgba(216, 162, 59, 0.14);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--paper);
+    font-family: 'IBM Plex Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+
+  header {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    margin: 0 0 10px;
+  }
+
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+    color: var(--paper);
+  }
+
+  .meta-row {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--paper-dim);
+  }
+
+  .meta-row strong {
+    color: var(--paper);
+    font-weight: 600;
+  }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+    align-items: center;
+  }
+
+  .chip {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--paper-dim);
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+
+  .chip:hover { border-color: var(--paper-dim); color: var(--paper); }
+
+  .chip.active[data-bias="all"] { background: var(--paper); color: var(--bg); border-color: var(--paper); }
+  .chip.active[data-bias="bullish"] { background: var(--bullish-dim); color: var(--bullish); border-color: var(--bullish); }
+  .chip.active[data-bias="bearish"] { background: var(--bearish-dim); color: var(--bearish); border-color: var(--bearish); }
+  .chip.active[data-bias="neutral"] { background: var(--neutral-dim); color: var(--neutral); border-color: var(--neutral); }
+
+  .search {
+    margin-left: auto;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 7px 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--paper);
+    min-width: 160px;
+  }
+  .search::placeholder { color: var(--paper-dim); }
+  .search:focus { outline: none; border-color: var(--paper-dim); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  thead th {
+    text-align: left;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+    font-weight: 600;
+    padding: 0 10px 10px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:hover { color: var(--paper); }
+  thead th.sorted::after { content: " ▾"; font-size: 10px; }
+  thead th.sorted.asc::after { content: " ▴"; }
+
+  tbody tr { border-bottom: 1px solid var(--line); }
+  tbody tr:hover { background: rgba(255,255,255,0.025); }
+
+  td { padding: 12px 10px; vertical-align: middle; }
+
+  .ticker {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+
+  .badge {
+    display: inline-block;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+  .badge.bullish { background: var(--bullish-dim); color: var(--bullish); }
+  .badge.bearish { background: var(--bearish-dim); color: var(--bearish); }
+  .badge.neutral { background: var(--neutral-dim); color: var(--neutral); }
+
+  .detail { color: var(--paper-dim); }
+  .price { text-align: right; }
+  .date { color: var(--paper-dim); white-space: nowrap; }
+
+  .empty, .loading {
+    padding: 60px 0;
+    text-align: center;
+    color: var(--paper-dim);
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--paper-dim);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 640px) {
+    .detail { display: none; }
+    .controls .search { width: 100%; margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Daily Signal Scan · S&amp;P 500</p>
+    <h1>Signal Board</h1>
+    <div class="meta-row">
+      <span>Last run: <strong id="meta-generated">—</strong></span>
+      <span>Tickers scanned: <strong id="meta-tickers">—</strong></span>
+      <span>Signals found: <strong id="meta-signals">—</strong></span>
+    </div>
+  </header>
+
+  <div class="controls">
+    <button class="chip active" data-bias="all">All</button>
+    <button class="chip" data-bias="bullish">Bullish</button>
+    <button class="chip" data-bias="bearish">Bearish</button>
+    <button class="chip" data-bias="neutral">Neutral</button>
+    <input class="search" id="search" type="text" placeholder="Filter by ticker…">
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-key="ticker">Ticker</th>
+        <th data-key="type">Signal</th>
+        <th class="detail-col" data-key="detail">Detail</th>
+        <th data-key="price">Price</th>
+        <th data-key="date">Date</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <div class="loading" id="loading">Loading scan results…</div>
+  <div class="empty" id="empty" style="display:none;">No signals match this filter.</div>
+
+  <footer>
+    Read-only scan of moving averages, MACD, RSI, and basic candlestick patterns across the S&amp;P 500.
+    This board does not place trades — it only flags things worth a closer look.
+  </footer>
+</div>
+
+<script>
+  let allSignals = [];
+  let activeBias = 'all';
+  let sortKey = 'ticker';
+  let sortAsc = true;
+
+  const rowsEl = document.getElementById('rows');
+  const emptyEl = document.getElementById('empty');
+  const loadingEl = document.getElementById('loading');
+  const searchEl = document.getElementById('search');
+
+  function render() {
+    const query = searchEl.value.trim().toUpperCase();
+    let filtered = allSignals.filter(s => {
+      const biasMatch = activeBias === 'all' || s.bias === activeBias;
+      const queryMatch = !query || s.ticker.includes(query);
+      return biasMatch && queryMatch;
+    });
+
+    filtered.sort((a, b) => {
+      let av = a[sortKey], bv = b[sortKey];
+      if (sortKey === 'price') { av = Number(av); bv = Number(bv); }
+      if (av < bv) return sortAsc ? -1 : 1;
+      if (av > bv) return sortAsc ? 1 : -1;
+      return 0;
+    });
+
+    rowsEl.innerHTML = '';
+    emptyEl.style.display = filtered.length ? 'none' : 'block';
+
+    for (const s of filtered) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="ticker">${s.ticker}</td>
+        <td><span class="badge ${s.bias}">${s.type}</span></td>
+        <td class="detail">${s.detail}</td>
+        <td class="price">$${Number(s.price).toFixed(2)}</td>
+        <td class="date">${s.date}</td>
+      `;
+      rowsEl.appendChild(tr);
+    }
+  }
+
+  document.querySelectorAll('.chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeBias = chip.dataset.bias;
+      render();
+    });
+  });
+
+  document.querySelectorAll('th[data-key]').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.key;
+      if (sortKey === key) {
+        sortAsc = !sortAsc;
+      } else {
+        sortKey = key;
+        sortAsc = true;
+      }
+      document.querySelectorAll('th').forEach(h => h.classList.remove('sorted', 'asc'));
+      th.classList.add('sorted');
+      if (sortAsc) th.classList.add('asc');
+      render();
+    });
+  });
+
+  searchEl.addEventListener('input', render);
+
+  fetch('data.json', { cache: 'no-store' })
+    .then(r => {
+      if (!r.ok) throw new Error('No data.json yet');
+      return r.json();
+    })
+    .then(data => {
+      loadingEl.style.display = 'none';
+      allSignals = data.signals || [];
+      document.getElementById('meta-generated').textContent = new Date(data.generated_at).toLocaleString();
+      document.getElementById('meta-tickers').textContent = data.ticker_count;
+      document.getElementById('meta-signals').textContent = data.signal_count;
+      render();
+    })
+    .catch(err => {
+      loadingEl.textContent = 'No scan results yet — the workflow needs to run at least once.';
+    });
+</script>
+</body>
+</html>
