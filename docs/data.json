@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-30T21:10:10.595936+00:00",
+  "generated_at": "2026-06-30T21:59:36.572138+00:00",
   "ticker_count": 503,
-  "signal_count": 427,
+  "signal_count": 428,
   "setup_count": 0,
   "signals": [
     {
@@ -1853,6 +1853,14 @@
       "date": "2026-06-30"
     },
     {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "JBHT",
+      "price": 289.43,
+      "date": "2026-06-30"
+    },
+    {
       "type": "Bearish Engulfing",
       "detail": "Bearish Engulfing candlestick on the latest bar",
       "bias": "bearish",
@@ -2066,6 +2074,14 @@
       "bias": "bullish",
       "ticker": "LRCX",
       "price": 433.33,
+      "date": "2026-06-30"
+    },
+    {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "LULU",
+      "price": 114.18,
       "date": "2026-06-30"
     },
     {
@@ -2392,14 +2408,6 @@
       "type": "Pullback",
       "detail": "3.1% below 7-day high of $159.71",
       "bias": "bullish",
-      "ticker": "NTAP",
-      "price": 154.76,
-      "date": "2026-06-30"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
       "ticker": "NTAP",
       "price": 154.76,
       "date": "2026-06-30"
