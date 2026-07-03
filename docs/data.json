@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-02T21:52:31.843141+00:00",
+  "generated_at": "2026-07-03T22:32:15.724514+00:00",
   "ticker_count": 503,
-  "signal_count": 517,
+  "signal_count": 522,
   "setup_count": 0,
   "signals": [
     {
@@ -325,6 +325,14 @@
       "date": "2026-07-02"
     },
     {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "APA",
+      "price": 32.36,
+      "date": "2026-07-02"
+    },
+    {
       "type": "RSI Overbought",
       "detail": "RSI14 = 76.4",
       "bias": "bearish",
@@ -470,7 +478,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 84.0",
+      "detail": "RSI14 = 84.3",
       "bias": "bearish",
       "ticker": "AXP",
       "price": 351.96,
@@ -478,7 +486,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $348.00",
+      "detail": "Closed above 30-day high of $347.05",
       "bias": "bullish",
       "ticker": "AXP",
       "price": 351.96,
@@ -810,14 +818,6 @@
       "bias": "bullish",
       "ticker": "CCL",
       "price": 27.91,
-      "date": "2026-07-02"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "CDNS",
-      "price": 373.14,
       "date": "2026-07-02"
     },
     {
@@ -1726,7 +1726,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $364.11",
+      "detail": "Closed above 30-day high of $362.51",
       "bias": "bullish",
       "ticker": "GD",
       "price": 373.54,
@@ -1807,14 +1807,6 @@
     {
       "type": "Pullback",
       "detail": "3.7% below 7-day high of $78.95",
-      "bias": "bullish",
-      "ticker": "GM",
-      "price": 76.0,
-      "date": "2026-07-02"
-    },
-    {
-      "type": "Hammer",
-      "detail": "Hammer candlestick on the latest bar",
       "bias": "bullish",
       "ticker": "GM",
       "price": 76.0,
@@ -2226,6 +2218,14 @@
       "bias": "bullish",
       "ticker": "JNJ",
       "price": 263.04,
+      "date": "2026-07-02"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "KDP",
+      "price": 33.3,
       "date": "2026-07-02"
     },
     {
@@ -2861,6 +2861,14 @@
       "date": "2026-07-02"
     },
     {
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "ON",
+      "price": 91.22,
+      "date": "2026-07-02"
+    },
+    {
       "type": "RSI Oversold",
       "detail": "RSI14 = 14.9",
       "bias": "bullish",
@@ -2887,14 +2895,6 @@
     {
       "type": "RSI Overbought",
       "detail": "RSI14 = 84.3",
-      "bias": "bearish",
-      "ticker": "PANW",
-      "price": 348.06,
-      "date": "2026-07-02"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
       "ticker": "PANW",
       "price": 348.06,
@@ -2942,7 +2942,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 78.7",
+      "detail": "RSI14 = 78.8",
       "bias": "bearish",
       "ticker": "PGR",
       "price": 232.22,
@@ -2950,7 +2950,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $225.30",
+      "detail": "Closed above 30-day high of $225.20",
       "bias": "bullish",
       "ticker": "PGR",
       "price": 232.22,
@@ -3000,6 +3000,14 @@
       "type": "MACD Bullish Crossover",
       "detail": "MACD crossed above its signal line",
       "bias": "bullish",
+      "ticker": "PLTR",
+      "price": 129.3,
+      "date": "2026-07-02"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
       "ticker": "PLTR",
       "price": 129.3,
       "date": "2026-07-02"
@@ -3222,7 +3230,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $216.39",
+      "detail": "Closed above 30-day high of $215.76",
       "bias": "bullish",
       "ticker": "RSG",
       "price": 217.34,
@@ -3352,6 +3360,14 @@
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
+      "ticker": "STLD",
+      "price": 220.39,
+      "date": "2026-07-02"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
       "ticker": "STT",
       "price": 170.69,
       "date": "2026-07-02"
@@ -3390,7 +3406,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 77.0",
+      "detail": "RSI14 = 78.3",
       "bias": "bearish",
       "ticker": "SYY",
       "price": 84.83,
@@ -3398,7 +3414,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $83.58",
+      "detail": "Closed above 30-day high of $83.03",
       "bias": "bullish",
       "ticker": "SYY",
       "price": 84.83,
@@ -3509,6 +3525,14 @@
       "date": "2026-07-02"
     },
     {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "TMUS",
+      "price": 177.52,
+      "date": "2026-07-02"
+    },
+    {
       "type": "Pullback",
       "detail": "7.0% below 7-day high of $437.64",
       "bias": "bullish",
@@ -3536,6 +3560,14 @@
       "type": "RSI Overbought",
       "detail": "RSI14 = 70.7",
       "bias": "bearish",
+      "ticker": "TRMB",
+      "price": 53.04,
+      "date": "2026-07-02"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
       "ticker": "TRMB",
       "price": 53.04,
       "date": "2026-07-02"
@@ -4128,6 +4160,14 @@
       "type": "RSI Overbought",
       "detail": "RSI14 = 76.3",
       "bias": "bearish",
+      "ticker": "ZBRA",
+      "price": 267.18,
+      "date": "2026-07-02"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
       "ticker": "ZBRA",
       "price": 267.18,
       "date": "2026-07-02"
