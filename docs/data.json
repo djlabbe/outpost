@@ -1,616 +1,720 @@
 {
-  "generated_at": "2026-09-07T23:38:28.528970+00:00",
+  "generated_at": "2026-09-08T23:30:12.479724+00:00",
   "ticker_count": 503,
-  "signal_count": 472,
+  "signal_count": 480,
   "setup_count": 0,
   "signals": [
     {
       "type": "Pullback",
-      "detail": "4.3% below 7-day high of $157.69",
+      "detail": "6.9% below 7-day high of $157.69",
       "bias": "bullish",
       "ticker": "A",
-      "price": 150.86,
-      "date": "2026-09-04"
+      "price": 146.85,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $328.21",
+      "bias": "bullish",
+      "ticker": "AAPL",
+      "price": 316.22,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $261.72",
+      "bias": "bullish",
+      "ticker": "ABBV",
+      "price": 248.78,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.9% below 7-day high of $189.43",
+      "bias": "bullish",
+      "ticker": "ABNB",
+      "price": 174.54,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.2% below 7-day high of $112.47",
+      "bias": "bullish",
+      "ticker": "ABT",
+      "price": 105.52,
+      "date": "2026-09-08"
     },
     {
       "type": "Bearish Engulfing",
       "detail": "Bearish Engulfing candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "AAPL",
-      "price": 319.97,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.0% below 7-day high of $189.43",
-      "bias": "bullish",
-      "ticker": "ABNB",
-      "price": 181.94,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.1% below 7-day high of $114.10",
-      "bias": "bullish",
       "ticker": "ABT",
-      "price": 108.33,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "ABT",
-      "price": 108.33,
-      "date": "2026-09-04"
+      "price": 105.52,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.3% below 7-day high of $193.12",
+      "detail": "4.1% below 7-day high of $99.83",
+      "bias": "bullish",
+      "ticker": "ACGL",
+      "price": 95.71,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.3% below 7-day high of $193.12",
       "bias": "bullish",
       "ticker": "ACN",
-      "price": 186.72,
-      "date": "2026-09-04"
+      "price": 179.03,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.3",
-      "bias": "bullish",
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
       "ticker": "ADI",
-      "price": 362.25,
-      "date": "2026-09-04"
+      "price": 363.2,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.4% below 7-day high of $287.48",
+      "detail": "6.8% below 7-day high of $287.48",
       "bias": "bullish",
       "ticker": "ADP",
-      "price": 277.62,
-      "date": "2026-09-04"
+      "price": 267.96,
+      "date": "2026-09-08"
     },
     {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "AEP",
-      "price": 124.5,
-      "date": "2026-09-04"
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "AEE",
+      "price": 106.73,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
       "ticker": "AES",
-      "price": 14.79,
-      "date": "2026-09-04"
+      "price": 14.83,
+      "date": "2026-09-08"
     },
     {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $14.80",
       "bias": "bullish",
-      "ticker": "AFL",
-      "price": 117.21,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "AFL",
-      "price": 117.21,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 24.4",
-      "bias": "bullish",
-      "ticker": "AKAM",
-      "price": 105.22,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.4% below 7-day high of $111.24",
-      "bias": "bullish",
-      "ticker": "AKAM",
-      "price": 105.22,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "AKAM",
-      "price": 105.22,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "ALB",
-      "price": 126.28,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "ALL",
-      "price": 259.57,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "ALLE",
-      "price": 157.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 17.7",
-      "bias": "bullish",
-      "ticker": "AMAT",
-      "price": 454.71,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.7% below 7-day high of $482.36",
-      "bias": "bullish",
-      "ticker": "AMAT",
-      "price": 454.71,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "AMCR",
-      "price": 45.15,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "AMD",
-      "price": 477.57,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.1% below 7-day high of $245.20",
-      "bias": "bullish",
-      "ticker": "AME",
-      "price": 237.72,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "AMGN",
-      "price": 437.23,
-      "date": "2026-09-04"
+      "ticker": "AES",
+      "price": 14.83,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bearish Crossover",
       "detail": "MACD crossed below its signal line",
       "bias": "bearish",
-      "ticker": "AMT",
-      "price": 175.85,
-      "date": "2026-09-04"
+      "ticker": "AFL",
+      "price": 115.16,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "AIG",
+      "price": 74.68,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.0% below 7-day high of $267.56",
+      "bias": "bullish",
+      "ticker": "AJG",
+      "price": 251.45,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.1% below 7-day high of $111.24",
+      "bias": "bullish",
+      "ticker": "AKAM",
+      "price": 105.61,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.9% below 7-day high of $137.75",
+      "bias": "bullish",
+      "ticker": "ALB",
+      "price": 129.57,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "ALB",
+      "price": 129.57,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 29.9",
+      "bias": "bullish",
+      "ticker": "ALGN",
+      "price": 153.49,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.0% below 7-day high of $159.86",
+      "bias": "bullish",
+      "ticker": "ALGN",
+      "price": 153.49,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $263.11",
+      "bias": "bullish",
+      "ticker": "ALL",
+      "price": 253.46,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.6% below 7-day high of $46.02",
+      "bias": "bullish",
+      "ticker": "AMCR",
+      "price": 44.34,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "AME",
+      "price": 237.76,
+      "date": "2026-09-08"
     },
     {
       "type": "Shooting Star",
       "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "AMT",
-      "price": 175.85,
-      "date": "2026-09-04"
+      "ticker": "AME",
+      "price": 237.76,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.6% below 7-day high of $266.43",
+      "bias": "bullish",
+      "ticker": "AMZN",
+      "price": 256.97,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
       "ticker": "AMZN",
-      "price": 258.51,
-      "date": "2026-09-04"
+      "price": 256.97,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.2% below 7-day high of $202.25",
+      "detail": "3.0% below 7-day high of $201.09",
       "bias": "bullish",
       "ticker": "ANET",
-      "price": 193.78,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.2% below 7-day high of $62.48",
-      "bias": "bullish",
-      "ticker": "AOS",
-      "price": 60.48,
-      "date": "2026-09-04"
+      "price": 194.96,
+      "date": "2026-09-08"
     },
     {
       "type": "Shooting Star",
       "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "AOS",
-      "price": 60.48,
-      "date": "2026-09-04"
+      "ticker": "ANET",
+      "price": 194.96,
+      "date": "2026-09-08"
     },
     {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "APA",
-      "price": 42.77,
-      "date": "2026-09-04"
+      "ticker": "AON",
+      "price": 315.79,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.3% below 7-day high of $44.70",
+      "detail": "5.1% below 7-day high of $61.95",
       "bias": "bullish",
-      "ticker": "APA",
-      "price": 42.77,
-      "date": "2026-09-04"
+      "ticker": "AOS",
+      "price": 58.82,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "APH",
-      "price": 82.78,
-      "date": "2026-09-04"
+      "ticker": "APA",
+      "price": 43.55,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.8% below 7-day high of $309.46",
+      "bias": "bullish",
+      "ticker": "APD",
+      "price": 297.71,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "APD",
+      "price": 297.71,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Golden Cross",
+      "detail": "SMA50 crossed above SMA200",
+      "bias": "bullish",
+      "ticker": "APO",
+      "price": 131.81,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.5% below 7-day high of $136.58",
+      "bias": "bullish",
+      "ticker": "APO",
+      "price": 131.81,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
       "ticker": "APO",
-      "price": 133.67,
-      "date": "2026-09-04"
+      "price": 131.81,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 70.9",
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
+      "ticker": "APO",
+      "price": 131.81,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.6% below 7-day high of $47.95",
+      "bias": "bullish",
+      "ticker": "APTV",
+      "price": 45.73,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $52.72",
+      "bias": "bullish",
       "ticker": "ARE",
-      "price": 52.65,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 29.2",
-      "bias": "bullish",
-      "ticker": "AVGO",
-      "price": 357.9,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.7% below 7-day high of $371.54",
-      "bias": "bullish",
-      "ticker": "AVGO",
-      "price": 357.9,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Hammer",
-      "detail": "Hammer candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "AVGO",
-      "price": 357.9,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.4% below 7-day high of $181.28",
-      "bias": "bullish",
-      "ticker": "AVY",
-      "price": 175.06,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.3",
-      "bias": "bullish",
-      "ticker": "BA",
-      "price": 212.25,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "BBY",
-      "price": 90.27,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $90.17",
-      "bias": "bullish",
-      "ticker": "BBY",
-      "price": 90.27,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "BBY",
-      "price": 90.27,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.0% below 7-day high of $27.83",
-      "bias": "bullish",
-      "ticker": "BF-B",
-      "price": 26.73,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.4% below 7-day high of $122.86",
-      "bias": "bullish",
-      "ticker": "BG",
-      "price": 118.71,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "BIIB",
-      "price": 220.83,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "7.5% below 7-day high of $208.89",
-      "bias": "bullish",
-      "ticker": "BKNG",
-      "price": 193.29,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.2% below 7-day high of $68.67",
-      "bias": "bullish",
-      "ticker": "BLDR",
-      "price": 65.79,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "BLDR",
-      "price": 65.79,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.3% below 7-day high of $1173.21",
-      "bias": "bullish",
-      "ticker": "BLK",
-      "price": 1122.29,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $164.33",
-      "bias": "bullish",
-      "ticker": "BNY",
-      "price": 164.84,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.3% below 7-day high of $182.52",
-      "bias": "bullish",
-      "ticker": "BR",
-      "price": 172.88,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.2% below 7-day high of $143.64",
-      "bias": "bullish",
-      "ticker": "BX",
-      "price": 136.15,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.7% below 7-day high of $70.30",
-      "bias": "bullish",
-      "ticker": "BXP",
-      "price": 67.69,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "BXP",
-      "price": 67.69,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "CAH",
-      "price": 247.18,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "CARR",
-      "price": 59.71,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 22.2",
-      "bias": "bullish",
-      "ticker": "CASY",
-      "price": 756.09,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.3% below 7-day high of $807.12",
-      "bias": "bullish",
-      "ticker": "CASY",
-      "price": 756.09,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "CASY",
-      "price": 756.09,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "CAT",
-      "price": 813.94,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.7% below 7-day high of $313.08",
-      "bias": "bullish",
-      "ticker": "CBOE",
-      "price": 298.38,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 19.3",
-      "bias": "bullish",
-      "ticker": "CCL",
-      "price": 23.51,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $290.04",
-      "bias": "bullish",
-      "ticker": "CEG",
-      "price": 298.96,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "CEG",
-      "price": 298.96,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 71.3",
-      "bias": "bearish",
-      "ticker": "CF",
-      "price": 133.35,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.3% below 7-day high of $139.27",
-      "bias": "bullish",
-      "ticker": "CF",
-      "price": 133.35,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.2% below 7-day high of $102.86",
-      "bias": "bullish",
-      "ticker": "CHD",
-      "price": 98.55,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "CHRW",
-      "price": 147.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.4% below 7-day high of $158.97",
-      "bias": "bullish",
-      "ticker": "CHTR",
-      "price": 151.99,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 20.5",
-      "bias": "bullish",
-      "ticker": "CIEN",
-      "price": 321.0,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "CIEN",
-      "price": 321.0,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.6% below 7-day high of $92.06",
-      "bias": "bullish",
-      "ticker": "CL",
-      "price": 88.77,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 17.6",
-      "bias": "bullish",
-      "ticker": "CLX",
-      "price": 93.06,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "CME",
-      "price": 281.29,
-      "date": "2026-09-04"
+      "price": 50.77,
+      "date": "2026-09-08"
     },
     {
       "type": "Golden Cross",
       "detail": "SMA50 crossed above SMA200",
       "bias": "bullish",
-      "ticker": "CMG",
-      "price": 36.96,
-      "date": "2026-09-04"
+      "ticker": "ARES",
+      "price": 138.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.2% below 7-day high of $143.17",
+      "bias": "bullish",
+      "ticker": "ARES",
+      "price": 138.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $177.31",
+      "bias": "bullish",
+      "ticker": "AVY",
+      "price": 170.7,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "AWK",
+      "price": 140.38,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "AXON",
+      "price": 505.43,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 28.6",
+      "bias": "bullish",
+      "ticker": "BA",
+      "price": 210.73,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "BA",
+      "price": 210.73,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.0% below 7-day high of $63.57",
+      "bias": "bullish",
+      "ticker": "BALL",
+      "price": 61.02,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $26.13",
+      "bias": "bullish",
+      "ticker": "BAX",
+      "price": 24.86,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $189.52",
+      "bias": "bullish",
+      "ticker": "BDX",
+      "price": 179.1,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.1% below 7-day high of $27.51",
+      "bias": "bullish",
+      "ticker": "BF-B",
+      "price": 26.39,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $122.86",
+      "bias": "bullish",
+      "ticker": "BG",
+      "price": 123.89,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "BIIB",
+      "price": 212.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.3% below 7-day high of $224.51",
+      "bias": "bullish",
+      "ticker": "BIIB",
+      "price": 212.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 26.6",
+      "bias": "bullish",
+      "ticker": "BKNG",
+      "price": 180.3,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "BKR",
+      "price": 63.92,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.6% below 7-day high of $67.72",
+      "bias": "bullish",
+      "ticker": "BLDR",
+      "price": 62.58,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.2% below 7-day high of $1167.57",
+      "bias": "bullish",
+      "ticker": "BLK",
+      "price": 1095.37,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.0% below 7-day high of $68.09",
+      "bias": "bullish",
+      "ticker": "BMY",
+      "price": 64.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.6% below 7-day high of $182.52",
+      "bias": "bullish",
+      "ticker": "BR",
+      "price": 168.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "BRK-B",
+      "price": 505.83,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.0% below 7-day high of $73.31",
+      "bias": "bullish",
+      "ticker": "BRO",
+      "price": 68.18,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.0% below 7-day high of $48.37",
+      "bias": "bullish",
+      "ticker": "BSX",
+      "price": 44.98,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.7% below 7-day high of $143.64",
+      "bias": "bullish",
+      "ticker": "BX",
+      "price": 133.97,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.0% below 7-day high of $69.97",
+      "bias": "bullish",
+      "ticker": "BXP",
+      "price": 65.74,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $248.61",
+      "bias": "bullish",
+      "ticker": "CAH",
+      "price": 240.49,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 21.4",
+      "bias": "bullish",
+      "ticker": "CASY",
+      "price": 733.49,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.4% below 7-day high of $766.91",
+      "bias": "bullish",
+      "ticker": "CASY",
+      "price": 733.49,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "CAT",
+      "price": 822.48,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "CB",
+      "price": 336.64,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $348.25",
+      "bias": "bullish",
+      "ticker": "CB",
+      "price": 336.64,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Golden Cross",
+      "detail": "SMA50 crossed above SMA200",
+      "bias": "bullish",
+      "ticker": "CBOE",
+      "price": 293.33,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.3% below 7-day high of $313.08",
+      "bias": "bullish",
+      "ticker": "CBOE",
+      "price": 293.33,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.7% below 7-day high of $150.82",
+      "bias": "bullish",
+      "ticker": "CBRE",
+      "price": 142.26,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "CCI",
+      "price": 75.97,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 19.8",
+      "bias": "bullish",
+      "ticker": "CCL",
+      "price": 23.2,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.0% below 7-day high of $24.95",
+      "bias": "bullish",
+      "ticker": "CCL",
+      "price": 23.2,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "CCL",
+      "price": 23.2,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.1% below 7-day high of $153.92",
+      "bias": "bullish",
+      "ticker": "CDW",
+      "price": 144.48,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 76.8",
+      "bias": "bearish",
+      "ticker": "CEG",
+      "price": 299.05,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $298.96",
+      "bias": "bullish",
+      "ticker": "CEG",
+      "price": 299.05,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 70.5",
+      "bias": "bearish",
+      "ticker": "CF",
+      "price": 134.33,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.5% below 7-day high of $139.27",
+      "bias": "bullish",
+      "ticker": "CF",
+      "price": 134.33,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "CF",
+      "price": 134.33,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.7% below 7-day high of $102.37",
+      "bias": "bullish",
+      "ticker": "CHD",
+      "price": 96.54,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.6% below 7-day high of $286.26",
+      "bias": "bullish",
+      "ticker": "CI",
+      "price": 275.83,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.2% below 7-day high of $174.72",
+      "bias": "bullish",
+      "ticker": "CINF",
+      "price": 169.14,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 16.7",
+      "bias": "bullish",
+      "ticker": "CLX",
+      "price": 91.6,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "CMCSA",
+      "price": 26.33,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
@@ -618,3167 +722,3127 @@
       "bias": "bullish",
       "ticker": "CMG",
       "price": 36.96,
-      "date": "2026-09-04"
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "CMG",
+      "price": 36.96,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 17.9",
+      "detail": "RSI14 = 22.1",
       "bias": "bullish",
       "ticker": "CMI",
-      "price": 560.75,
-      "date": "2026-09-04"
+      "price": 561.55,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.0% below 7-day high of $578.14",
+      "detail": "5.1% below 7-day high of $68.02",
       "bias": "bullish",
-      "ticker": "CMI",
-      "price": 560.75,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 26.0",
-      "bias": "bullish",
-      "ticker": "CMS",
-      "price": 68.46,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "CMS",
-      "price": 68.46,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
       "ticker": "CNC",
-      "price": 67.04,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 26.8",
-      "bias": "bullish",
-      "ticker": "COHR",
-      "price": 281.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.6% below 7-day high of $295.39",
-      "bias": "bullish",
-      "ticker": "COHR",
-      "price": 281.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.2% below 7-day high of $192.70",
-      "bias": "bullish",
-      "ticker": "COIN",
-      "price": 184.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "COIN",
-      "price": 184.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.1",
-      "bias": "bullish",
-      "ticker": "COO",
-      "price": 69.59,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.3% below 7-day high of $72.68",
-      "bias": "bullish",
-      "ticker": "COO",
-      "price": 69.59,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "COP",
-      "price": 134.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.2% below 7-day high of $956.12",
-      "bias": "bullish",
-      "ticker": "COST",
-      "price": 915.74,
-      "date": "2026-09-04"
+      "price": 64.58,
+      "date": "2026-09-08"
     },
     {
       "type": "Bullish Engulfing",
       "detail": "Bullish Engulfing candlestick on the latest bar",
       "bias": "bullish",
-      "ticker": "CRH",
-      "price": 94.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "CRL",
-      "price": 288.5,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 88.2",
-      "bias": "bearish",
-      "ticker": "CRM",
-      "price": 259.23,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "7.7% below 7-day high of $231.00",
-      "bias": "bullish",
-      "ticker": "CRWD",
-      "price": 213.1,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "CRWD",
-      "price": 213.1,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.1% below 7-day high of $32.22",
-      "bias": "bullish",
-      "ticker": "CSGP",
-      "price": 30.91,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.3% below 7-day high of $51.62",
-      "bias": "bullish",
-      "ticker": "CSX",
-      "price": 49.41,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 70.1",
-      "bias": "bearish",
-      "ticker": "CTSH",
-      "price": 62.31,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.6% below 7-day high of $64.64",
-      "bias": "bullish",
-      "ticker": "CTSH",
-      "price": 62.31,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 84.3",
-      "bias": "bearish",
-      "ticker": "CTVA",
-      "price": 87.86,
-      "date": "2026-09-04"
+      "ticker": "CNP",
+      "price": 40.12,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bullish Crossover",
       "detail": "MACD crossed above its signal line",
       "bias": "bullish",
-      "ticker": "CVNA",
-      "price": 74.59,
-      "date": "2026-09-04"
+      "ticker": "COHR",
+      "price": 301.88,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.1% below 7-day high of $192.70",
+      "bias": "bullish",
+      "ticker": "COIN",
+      "price": 178.94,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 19.6",
+      "bias": "bullish",
+      "ticker": "COO",
+      "price": 67.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $71.17",
+      "bias": "bullish",
+      "ticker": "COO",
+      "price": 67.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $337.22",
+      "bias": "bullish",
+      "ticker": "COR",
+      "price": 324.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $945.47",
+      "bias": "bullish",
+      "ticker": "COST",
+      "price": 910.18,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.0% below 7-day high of $419.68",
+      "bias": "bullish",
+      "ticker": "CPAY",
+      "price": 407.05,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $33.72",
+      "bias": "bullish",
+      "ticker": "CPRT",
+      "price": 32.6,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "CPT",
+      "price": 104.71,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $95.86",
+      "bias": "bullish",
+      "ticker": "CRH",
+      "price": 90.61,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.3% below 7-day high of $296.41",
+      "bias": "bullish",
+      "ticker": "CRL",
+      "price": 280.76,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 78.1",
+      "bias": "bearish",
+      "ticker": "CRM",
+      "price": 249.12,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.8% below 7-day high of $264.43",
+      "bias": "bullish",
+      "ticker": "CRM",
+      "price": 249.12,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "CRWD",
+      "price": 210.02,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "D",
-      "price": 65.84,
-      "date": "2026-09-04"
+      "ticker": "CRWD",
+      "price": 210.02,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.5% below 7-day high of $83.08",
+      "detail": "5.8% below 7-day high of $32.22",
       "bias": "bullish",
-      "ticker": "DAL",
-      "price": 80.17,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 23.7",
-      "bias": "bullish",
-      "ticker": "DD",
-      "price": 131.59,
-      "date": "2026-09-04"
+      "ticker": "CSGP",
+      "price": 30.34,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.8% below 7-day high of $138.19",
+      "detail": "4.7% below 7-day high of $51.40",
       "bias": "bullish",
-      "ticker": "DD",
-      "price": 131.59,
-      "date": "2026-09-04"
+      "ticker": "CSX",
+      "price": 49.0,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "CSX",
+      "price": 49.0,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "CSX",
+      "price": 49.0,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.3% below 7-day high of $64.64",
+      "bias": "bullish",
+      "ticker": "CTSH",
+      "price": 59.92,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Overbought",
       "detail": "RSI14 = 73.2",
       "bias": "bearish",
-      "ticker": "DE",
-      "price": 693.53,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "DE",
-      "price": 693.53,
-      "date": "2026-09-04"
+      "ticker": "CTVA",
+      "price": 85.9,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.1% below 7-day high of $89.47",
+      "detail": "4.5% below 7-day high of $89.97",
+      "bias": "bullish",
+      "ticker": "CTVA",
+      "price": 85.9,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "CTVA",
+      "price": 85.9,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 72.2",
+      "bias": "bearish",
+      "ticker": "CVNA",
+      "price": 74.72,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "D",
+      "price": 66.22,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 29.4",
+      "bias": "bullish",
+      "ticker": "DD",
+      "price": 131.32,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.0% below 7-day high of $138.19",
+      "bias": "bullish",
+      "ticker": "DD",
+      "price": 131.32,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "DD",
+      "price": 131.32,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 72.6",
+      "bias": "bearish",
+      "ticker": "DE",
+      "price": 680.73,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.9% below 7-day high of $87.76",
       "bias": "bullish",
       "ticker": "DECK",
-      "price": 85.81,
-      "date": "2026-09-04"
+      "price": 82.6,
+      "date": "2026-09-08"
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $516.39",
+      "detail": "Closed above 30-day high of $524.14",
       "bias": "bullish",
       "ticker": "DELL",
-      "price": 524.14,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 73.0",
-      "bias": "bearish",
-      "ticker": "DG",
-      "price": 133.21,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $131.26",
-      "bias": "bullish",
-      "ticker": "DG",
-      "price": 133.21,
-      "date": "2026-09-04"
+      "price": 533.88,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.2% below 7-day high of $245.00",
+      "detail": "4.0% below 7-day high of $133.21",
+      "bias": "bullish",
+      "ticker": "DG",
+      "price": 127.87,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $244.61",
       "bias": "bullish",
       "ticker": "DGX",
-      "price": 237.14,
-      "date": "2026-09-04"
+      "price": 235.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Death Cross",
+      "detail": "SMA50 crossed below SMA200",
+      "bias": "bearish",
+      "ticker": "DHI",
+      "price": 138.49,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.4% below 7-day high of $149.25",
+      "detail": "6.0% below 7-day high of $147.39",
       "bias": "bullish",
       "ticker": "DHI",
-      "price": 142.75,
-      "date": "2026-09-04"
+      "price": 138.49,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.9% below 7-day high of $216.07",
+      "detail": "5.0% below 7-day high of $216.07",
       "bias": "bullish",
       "ticker": "DHR",
-      "price": 207.66,
-      "date": "2026-09-04"
+      "price": 205.23,
+      "date": "2026-09-08"
     },
     {
-      "type": "Pullback",
-      "detail": "3.9% below 7-day high of $109.63",
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "DHR",
+      "price": 205.23,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
       "bias": "bullish",
       "ticker": "DIS",
-      "price": 105.31,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "DLTR",
-      "price": 131.42,
-      "date": "2026-09-04"
+      "price": 105.06,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.3% below 7-day high of $21.58",
+      "detail": "6.0% below 7-day high of $131.91",
+      "bias": "bullish",
+      "ticker": "DLTR",
+      "price": 124.04,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $21.22",
       "bias": "bullish",
       "ticker": "DOC",
-      "price": 20.65,
-      "date": "2026-09-04"
+      "price": 20.51,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "DOC",
+      "price": 20.51,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.5% below 7-day high of $204.12",
+      "detail": "3.3% below 7-day high of $201.29",
       "bias": "bullish",
       "ticker": "DOV",
-      "price": 192.88,
-      "date": "2026-09-04"
+      "price": 194.74,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.9% below 7-day high of $31.28",
+      "detail": "5.5% below 7-day high of $31.28",
       "bias": "bullish",
       "ticker": "DOW",
-      "price": 29.44,
-      "date": "2026-09-04"
+      "price": 29.57,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "DRI",
-      "price": 216.88,
-      "date": "2026-09-04"
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "DOW",
+      "price": 29.57,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.5% below 7-day high of $91.06",
+      "detail": "4.2% below 7-day high of $350.00",
+      "bias": "bullish",
+      "ticker": "DPZ",
+      "price": 335.41,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.2% below 7-day high of $220.03",
+      "bias": "bullish",
+      "ticker": "DRI",
+      "price": 212.92,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "DTE",
+      "price": 137.26,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "DUK",
+      "price": 121.24,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "DUK",
+      "price": 121.24,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "DVN",
+      "price": 48.4,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.2% below 7-day high of $91.06",
       "bias": "bullish",
       "ticker": "DXCM",
-      "price": 87.9,
-      "date": "2026-09-04"
+      "price": 84.53,
+      "date": "2026-09-08"
     },
     {
-      "type": "Pullback",
-      "detail": "3.1% below 7-day high of $106.70",
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
       "bias": "bullish",
       "ticker": "EBAY",
-      "price": 103.41,
-      "date": "2026-09-04"
+      "price": 104.59,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $92.51",
+      "bias": "bullish",
+      "ticker": "ECHO",
+      "price": 93.42,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "ECHO",
+      "price": 93.42,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.9% below 7-day high of $290.60",
+      "detail": "3.0% below 7-day high of $286.75",
       "bias": "bullish",
       "ticker": "ECL",
-      "price": 279.28,
-      "date": "2026-09-04"
+      "price": 278.11,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "ED",
+      "price": 108.27,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.3% below 7-day high of $386.25",
+      "bias": "bullish",
       "ticker": "EG",
-      "price": 380.87,
-      "date": "2026-09-04"
+      "price": 369.83,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 77.6",
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
       "bias": "bearish",
       "ticker": "EL",
-      "price": 103.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "EL",
-      "price": 103.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 25.4",
-      "bias": "bullish",
-      "ticker": "EME",
-      "price": 754.16,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.5% below 7-day high of $158.29",
-      "bias": "bullish",
-      "ticker": "EMR",
-      "price": 152.82,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "EMR",
-      "price": 152.82,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "EOG",
-      "price": 145.19,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.0% below 7-day high of $1079.61",
-      "bias": "bullish",
-      "ticker": "EQIX",
-      "price": 1035.98,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "EQIX",
-      "price": 1035.98,
-      "date": "2026-09-04"
+      "price": 101.69,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 72.1",
+      "detail": "RSI14 = 73.3",
+      "bias": "bearish",
+      "ticker": "EL",
+      "price": 101.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.9% below 7-day high of $105.85",
+      "bias": "bullish",
+      "ticker": "EL",
+      "price": 101.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.1% below 7-day high of $414.78",
+      "bias": "bullish",
+      "ticker": "ELV",
+      "price": 401.94,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.5% below 7-day high of $157.71",
+      "bias": "bullish",
+      "ticker": "EMR",
+      "price": 152.15,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $1076.45",
+      "bias": "bullish",
+      "ticker": "EQIX",
+      "price": 1041.21,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 70.6",
       "bias": "bearish",
       "ticker": "EQT",
-      "price": 55.17,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "ERIE",
-      "price": 252.8,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "ES",
-      "price": 71.05,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "ES",
-      "price": 71.05,
-      "date": "2026-09-04"
+      "price": 55.12,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.3% below 7-day high of $288.17",
+      "detail": "6.5% below 7-day high of $260.40",
       "bias": "bullish",
-      "ticker": "ESS",
-      "price": 278.61,
-      "date": "2026-09-04"
+      "ticker": "ERIE",
+      "price": 243.35,
+      "date": "2026-09-08"
     },
     {
       "type": "Shooting Star",
       "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "ETR",
-      "price": 107.27,
-      "date": "2026-09-04"
+      "ticker": "ESS",
+      "price": 277.41,
+      "date": "2026-09-08"
     },
     {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "EVRG",
-      "price": 81.54,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Hammer",
-      "detail": "Hammer candlestick on the latest bar",
+      "type": "Pullback",
+      "detail": "4.5% below 7-day high of $90.82",
       "bias": "bullish",
       "ticker": "EW",
-      "price": 89.9,
-      "date": "2026-09-04"
+      "price": 86.72,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "EXC",
+      "price": 43.95,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "EXE",
+      "price": 98.19,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "EXE",
+      "price": 98.19,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 17.9",
+      "bias": "bullish",
+      "ticker": "EXR",
+      "price": 139.16,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.2% below 7-day high of $14.62",
+      "bias": "bullish",
+      "ticker": "F",
+      "price": 14.0,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.4% below 7-day high of $51.14",
+      "bias": "bullish",
+      "ticker": "FAST",
+      "price": 49.38,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "FCX",
+      "price": 76.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.8% below 7-day high of $313.55",
+      "bias": "bullish",
+      "ticker": "FDS",
+      "price": 289.0,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.2% below 7-day high of $331.41",
+      "bias": "bullish",
+      "ticker": "FDX",
+      "price": 314.13,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "FE",
+      "price": 46.45,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.0% below 7-day high of $410.22",
+      "bias": "bullish",
+      "ticker": "FFIV",
+      "price": 389.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "FIS",
+      "price": 39.42,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.8% below 7-day high of $42.28",
+      "bias": "bullish",
+      "ticker": "FIS",
+      "price": 39.42,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.6% below 7-day high of $53.31",
+      "bias": "bullish",
+      "ticker": "FISV",
+      "price": 50.86,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bullish Crossover",
       "detail": "MACD crossed above its signal line",
       "bias": "bullish",
-      "ticker": "EXC",
-      "price": 43.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "EXC",
-      "price": 43.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "EXPD",
-      "price": 188.8,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 18.2",
-      "bias": "bullish",
-      "ticker": "EXR",
-      "price": 139.25,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.4% below 7-day high of $144.09",
-      "bias": "bullish",
-      "ticker": "EXR",
-      "price": 139.25,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.0% below 7-day high of $51.15",
-      "bias": "bullish",
-      "ticker": "FAST",
-      "price": 49.6,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "7.9% below 7-day high of $79.00",
-      "bias": "bullish",
-      "ticker": "FCX",
-      "price": 72.73,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "FDS",
-      "price": 301.96,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.7% below 7-day high of $313.55",
-      "bias": "bullish",
-      "ticker": "FDS",
-      "price": 301.96,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.0% below 7-day high of $335.99",
-      "bias": "bullish",
-      "ticker": "FDX",
-      "price": 322.52,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "FE",
-      "price": 46.77,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.1% below 7-day high of $235.73",
-      "bias": "bullish",
-      "ticker": "FERG",
-      "price": 228.41,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "FERG",
-      "price": 228.41,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "FFIV",
-      "price": 390.47,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.8% below 7-day high of $410.22",
-      "bias": "bullish",
-      "ticker": "FFIV",
-      "price": 390.47,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "FFIV",
-      "price": 390.47,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "FICO",
-      "price": 932.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "FICO",
-      "price": 932.26,
-      "date": "2026-09-04"
+      "ticker": "FIX",
+      "price": 1648.47,
+      "date": "2026-09-08"
     },
     {
       "type": "Hammer",
       "detail": "Hammer candlestick on the latest bar",
       "bias": "bullish",
-      "ticker": "FIS",
-      "price": 41.89,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 25.9",
-      "bias": "bullish",
       "ticker": "FIX",
-      "price": 1610.34,
-      "date": "2026-09-04"
+      "price": 1648.47,
+      "date": "2026-09-08"
     },
     {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "FIX",
-      "price": 1610.34,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.3",
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
       "bias": "bullish",
       "ticker": "FLEX",
-      "price": 109.51,
-      "date": "2026-09-04"
+      "price": 114.31,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.0% below 7-day high of $115.30",
-      "bias": "bullish",
-      "ticker": "FLEX",
-      "price": 109.51,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.7% below 7-day high of $61.92",
+      "detail": "4.6% below 7-day high of $61.02",
       "bias": "bullish",
       "ticker": "FOX",
-      "price": 58.42,
-      "date": "2026-09-04"
+      "price": 58.24,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "FOX",
+      "price": 58.24,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.6% below 7-day high of $69.29",
+      "detail": "4.2% below 7-day high of $68.12",
       "bias": "bullish",
       "ticker": "FOXA",
-      "price": 65.42,
-      "date": "2026-09-04"
+      "price": 65.23,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "FOXA",
+      "price": 65.23,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
       "ticker": "FRT",
-      "price": 117.09,
-      "date": "2026-09-04"
+      "price": 117.25,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "FSLR",
+      "price": 213.25,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.4% below 7-day high of $60.18",
+      "detail": "5.6% below 7-day high of $59.85",
       "bias": "bullish",
       "ticker": "FTV",
-      "price": 56.94,
-      "date": "2026-09-04"
+      "price": 56.51,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "FTV",
+      "price": 56.51,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 18.8",
+      "detail": "RSI14 = 14.1",
       "bias": "bullish",
       "ticker": "GD",
-      "price": 359.39,
-      "date": "2026-09-04"
+      "price": 356.58,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.9% below 7-day high of $382.02",
+      "detail": "6.2% below 7-day high of $380.06",
       "bias": "bullish",
       "ticker": "GD",
-      "price": 359.39,
-      "date": "2026-09-04"
+      "price": 356.58,
+      "date": "2026-09-08"
     },
     {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
       "bias": "bearish",
-      "ticker": "GD",
-      "price": 359.39,
-      "date": "2026-09-04"
+      "ticker": "GDDY",
+      "price": 92.88,
+      "date": "2026-09-08"
     },
     {
-      "type": "Pullback",
-      "detail": "4.9% below 7-day high of $354.39",
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 27.2",
       "bias": "bullish",
       "ticker": "GE",
-      "price": 337.12,
-      "date": "2026-09-04"
+      "price": 334.91,
+      "date": "2026-09-08"
     },
     {
-      "type": "Pullback",
-      "detail": "6.1% below 7-day high of $73.31",
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 24.8",
       "bias": "bullish",
       "ticker": "GEHC",
-      "price": 68.86,
-      "date": "2026-09-04"
+      "price": 66.78,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 73.8",
+      "type": "Pullback",
+      "detail": "7.9% below 7-day high of $72.48",
+      "bias": "bullish",
+      "ticker": "GEHC",
+      "price": 66.78,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
       "bias": "bearish",
       "ticker": "GEN",
-      "price": 30.65,
-      "date": "2026-09-04"
+      "price": 29.81,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 25.4",
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $31.33",
+      "bias": "bullish",
+      "ticker": "GEN",
+      "price": 29.81,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
       "bias": "bullish",
       "ticker": "GEV",
-      "price": 941.95,
-      "date": "2026-09-04"
+      "price": 971.31,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 70.7",
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
       "bias": "bearish",
       "ticker": "GILD",
-      "price": 151.0,
-      "date": "2026-09-04"
+      "price": 146.64,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "7.8% below 7-day high of $41.55",
+      "detail": "3.0% below 7-day high of $151.22",
       "bias": "bullish",
-      "ticker": "GIS",
-      "price": 38.29,
-      "date": "2026-09-04"
+      "ticker": "GILD",
+      "price": 146.64,
+      "date": "2026-09-08"
     },
     {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $176.52",
       "bias": "bullish",
-      "ticker": "GLW",
-      "price": 154.3,
-      "date": "2026-09-04"
+      "ticker": "GL",
+      "price": 170.68,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 21.7",
+      "detail": "RSI14 = 29.9",
       "bias": "bullish",
       "ticker": "GNRC",
-      "price": 187.35,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bearish Engulfing",
-      "detail": "Bearish Engulfing candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "GOOG",
-      "price": 335.31,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bearish Engulfing",
-      "detail": "Bearish Engulfing candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "GOOGL",
-      "price": 338.46,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "GPC",
-      "price": 138.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 12.7",
-      "bias": "bullish",
-      "ticker": "GRMN",
-      "price": 277.03,
-      "date": "2026-09-04"
+      "price": 190.21,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.4% below 7-day high of $289.87",
+      "detail": "3.6% below 7-day high of $197.29",
       "bias": "bullish",
-      "ticker": "GRMN",
-      "price": 277.03,
-      "date": "2026-09-04"
+      "ticker": "GNRC",
+      "price": 190.21,
+      "date": "2026-09-08"
     },
     {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $92.81",
       "bias": "bullish",
-      "ticker": "GS",
-      "price": 1038.61,
-      "date": "2026-09-04"
+      "ticker": "GPN",
+      "price": 89.42,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 16.1",
+      "bias": "bullish",
+      "ticker": "GRMN",
+      "price": 275.68,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $289.87",
+      "bias": "bullish",
+      "ticker": "GRMN",
+      "price": 275.68,
+      "date": "2026-09-08"
     },
     {
       "type": "Shooting Star",
       "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "GRMN",
+      "price": 275.68,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
       "bias": "bearish",
       "ticker": "HAL",
-      "price": 37.07,
-      "date": "2026-09-04"
+      "price": 36.8,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.9% below 7-day high of $96.29",
+      "detail": "4.2% below 7-day high of $94.23",
       "bias": "bullish",
       "ticker": "HAS",
-      "price": 92.53,
-      "date": "2026-09-04"
+      "price": 90.31,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.2% below 7-day high of $427.16",
+      "detail": "4.1% below 7-day high of $419.34",
       "bias": "bullish",
       "ticker": "HCA",
-      "price": 405.0,
-      "date": "2026-09-04"
+      "price": 402.02,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
       "ticker": "HCA",
-      "price": 405.0,
-      "date": "2026-09-04"
+      "price": 402.02,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.4% below 7-day high of $332.40",
+      "detail": "4.3% below 7-day high of $327.77",
       "bias": "bullish",
       "ticker": "HD",
-      "price": 321.05,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "HD",
-      "price": 321.05,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 18.8",
-      "bias": "bullish",
-      "ticker": "HII",
-      "price": 285.93,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.4% below 7-day high of $295.91",
-      "bias": "bullish",
-      "ticker": "HII",
-      "price": 285.93,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.4% below 7-day high of $332.56",
-      "bias": "bullish",
-      "ticker": "HLT",
-      "price": 311.18,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "HLT",
-      "price": 311.18,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 24.4",
-      "bias": "bullish",
-      "ticker": "HON",
-      "price": 209.61,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.0% below 7-day high of $220.67",
-      "bias": "bullish",
-      "ticker": "HON",
-      "price": 209.61,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "HON",
-      "price": 209.61,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.8% below 7-day high of $55.23",
-      "bias": "bullish",
-      "ticker": "HPE",
-      "price": 52.0,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $31.99",
-      "bias": "bullish",
-      "ticker": "HPQ",
-      "price": 32.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 26.2",
-      "bias": "bullish",
-      "ticker": "HRL",
-      "price": 21.54,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "HRL",
-      "price": 21.54,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.6% below 7-day high of $185.35",
-      "bias": "bullish",
-      "ticker": "HSY",
-      "price": 173.15,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.6",
-      "bias": "bullish",
-      "ticker": "HUBB",
-      "price": 460.72,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "HUBB",
-      "price": 460.72,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.7% below 7-day high of $269.34",
-      "bias": "bullish",
-      "ticker": "HWM",
-      "price": 259.27,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.7% below 7-day high of $97.20",
-      "bias": "bullish",
-      "ticker": "IBKR",
-      "price": 92.62,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.8% below 7-day high of $556.69",
-      "bias": "bullish",
-      "ticker": "IDXX",
-      "price": 535.38,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 24.4",
-      "bias": "bullish",
-      "ticker": "IEX",
-      "price": 223.74,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.7% below 7-day high of $234.89",
-      "bias": "bullish",
-      "ticker": "IEX",
-      "price": 223.74,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "7.4% below 7-day high of $359.30",
-      "bias": "bullish",
-      "ticker": "INTU",
-      "price": 332.7,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 29.6",
-      "bias": "bullish",
-      "ticker": "INVH",
-      "price": 28.39,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.0% below 7-day high of $29.89",
-      "bias": "bullish",
-      "ticker": "INVH",
-      "price": 28.39,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "INVH",
-      "price": 28.39,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "IP",
-      "price": 37.24,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 78.6",
-      "bias": "bearish",
-      "ticker": "IQV",
-      "price": 267.77,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "IQV",
-      "price": 267.77,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.5% below 7-day high of $79.97",
-      "bias": "bullish",
-      "ticker": "IR",
-      "price": 76.36,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "IR",
-      "price": 76.36,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.0",
-      "bias": "bullish",
-      "ticker": "IRM",
-      "price": 116.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.8% below 7-day high of $122.69",
-      "bias": "bullish",
-      "ticker": "IRM",
-      "price": 116.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.0% below 7-day high of $198.39",
-      "bias": "bullish",
-      "ticker": "IT",
-      "price": 186.42,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 24.2",
-      "bias": "bullish",
-      "ticker": "ITW",
-      "price": 270.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.4% below 7-day high of $285.51",
-      "bias": "bullish",
-      "ticker": "ITW",
-      "price": 270.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "ITW",
-      "price": 270.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.8% below 7-day high of $151.98",
-      "bias": "bullish",
-      "ticker": "J",
-      "price": 146.23,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "JBHT",
-      "price": 273.77,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 21.6",
-      "bias": "bullish",
-      "ticker": "JBL",
-      "price": 310.57,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 73.8",
-      "bias": "bearish",
-      "ticker": "JKHY",
-      "price": 165.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.6% below 7-day high of $171.77",
-      "bias": "bullish",
-      "ticker": "JKHY",
-      "price": 165.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "JKHY",
-      "price": 165.64,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "JNJ",
-      "price": 275.23,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 70.9",
-      "bias": "bearish",
-      "ticker": "KDP",
-      "price": 32.59,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "KDP",
-      "price": 32.59,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "KEY",
-      "price": 22.18,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.9% below 7-day high of $25.85",
-      "bias": "bullish",
-      "ticker": "KHC",
-      "price": 24.85,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "KIM",
-      "price": 23.6,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "KLAC",
-      "price": 185.6,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.7% below 7-day high of $109.03",
-      "bias": "bullish",
-      "ticker": "KMB",
-      "price": 104.96,
-      "date": "2026-09-04"
+      "price": 313.7,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bearish Crossover",
       "detail": "MACD crossed below its signal line",
       "bias": "bearish",
-      "ticker": "KMI",
-      "price": 31.4,
-      "date": "2026-09-04"
+      "ticker": "HIG",
+      "price": 135.66,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "KMI",
-      "price": 31.4,
-      "date": "2026-09-04"
+      "type": "Pullback",
+      "detail": "3.1% below 7-day high of $140.00",
+      "bias": "bullish",
+      "ticker": "HIG",
+      "price": 135.66,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 21.9",
+      "bias": "bullish",
+      "ticker": "HII",
+      "price": 287.67,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "HII",
+      "price": 287.67,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 29.4",
+      "bias": "bullish",
+      "ticker": "HLT",
+      "price": 304.47,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.5% below 7-day high of $325.68",
+      "bias": "bullish",
+      "ticker": "HLT",
+      "price": 304.47,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Death Cross",
+      "detail": "SMA50 crossed below SMA200",
+      "bias": "bearish",
+      "ticker": "HON",
+      "price": 208.24,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 24.6",
+      "bias": "bullish",
+      "ticker": "HON",
+      "price": 208.24,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $220.39",
+      "bias": "bullish",
+      "ticker": "HON",
+      "price": 208.24,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.9% below 7-day high of $124.72",
+      "bias": "bullish",
+      "ticker": "HOOD",
+      "price": 117.34,
+      "date": "2026-09-08"
     },
     {
       "type": "Bearish Engulfing",
       "detail": "Bearish Engulfing candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "L",
-      "price": 109.3,
-      "date": "2026-09-04"
+      "ticker": "HOOD",
+      "price": 117.34,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.4% below 7-day high of $140.66",
+      "detail": "4.5% below 7-day high of $32.64",
       "bias": "bullish",
-      "ticker": "LDOS",
-      "price": 133.05,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.1% below 7-day high of $87.15",
-      "bias": "bullish",
-      "ticker": "LEN",
-      "price": 83.58,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "LH",
-      "price": 326.89,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 20.3",
-      "bias": "bullish",
-      "ticker": "LHX",
-      "price": 256.45,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.2% below 7-day high of $264.98",
-      "bias": "bullish",
-      "ticker": "LHX",
-      "price": 256.45,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "LIN",
-      "price": 477.57,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "7.8% below 7-day high of $956.14",
-      "bias": "bullish",
-      "ticker": "LITE",
-      "price": 881.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.4% below 7-day high of $1189.41",
-      "bias": "bullish",
-      "ticker": "LLY",
-      "price": 1149.36,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "LLY",
-      "price": 1149.36,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 21.6",
-      "bias": "bullish",
-      "ticker": "LMT",
-      "price": 525.28,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.6% below 7-day high of $562.41",
-      "bias": "bullish",
-      "ticker": "LMT",
-      "price": 525.28,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 28.4",
-      "bias": "bullish",
-      "ticker": "LNT",
-      "price": 67.97,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.4% below 7-day high of $318.58",
-      "bias": "bullish",
-      "ticker": "LRCX",
-      "price": 307.65,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "LULU",
-      "price": 100.61,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.0% below 7-day high of $46.23",
-      "bias": "bullish",
-      "ticker": "LVS",
-      "price": 44.37,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.6% below 7-day high of $66.57",
-      "bias": "bullish",
-      "ticker": "LYB",
-      "price": 63.52,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.0% below 7-day high of $182.64",
-      "bias": "bullish",
-      "ticker": "LYV",
-      "price": 173.5,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.2% below 7-day high of $598.47",
-      "bias": "bullish",
-      "ticker": "MA",
-      "price": 579.21,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "MA",
-      "price": 579.21,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.1",
-      "bias": "bullish",
-      "ticker": "MAR",
-      "price": 336.51,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.2% below 7-day high of $358.67",
-      "bias": "bullish",
-      "ticker": "MAR",
-      "price": 336.51,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "MAS",
-      "price": 72.7,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.5% below 7-day high of $265.05",
-      "bias": "bullish",
-      "ticker": "MCD",
-      "price": 255.69,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "MCHP",
-      "price": 74.17,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "MCK",
-      "price": 907.99,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.2% below 7-day high of $514.95",
-      "bias": "bullish",
-      "ticker": "MCO",
-      "price": 493.55,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $94.13",
-      "bias": "bullish",
-      "ticker": "MDT",
-      "price": 94.17,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $610.68",
-      "bias": "bullish",
-      "ticker": "META",
-      "price": 616.77,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 26.6",
-      "bias": "bullish",
-      "ticker": "MGM",
-      "price": 41.22,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.2% below 7-day high of $43.46",
-      "bias": "bullish",
-      "ticker": "MGM",
-      "price": 41.22,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.9% below 7-day high of $55.33",
-      "bias": "bullish",
-      "ticker": "MKC",
-      "price": 52.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "MKC",
-      "price": 52.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.1% below 7-day high of $531.32",
-      "bias": "bullish",
-      "ticker": "MLM",
-      "price": 514.77,
-      "date": "2026-09-04"
+      "ticker": "HPQ",
+      "price": 31.17,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
       "detail": "RSI14 = 20.1",
       "bias": "bullish",
-      "ticker": "MMM",
-      "price": 168.56,
-      "date": "2026-09-04"
+      "ticker": "HRL",
+      "price": 21.21,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "6.4% below 7-day high of $180.00",
+      "detail": "3.8% below 7-day high of $22.05",
       "bias": "bullish",
-      "ticker": "MMM",
-      "price": 168.56,
-      "date": "2026-09-04"
+      "ticker": "HRL",
+      "price": 21.21,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "MNST",
-      "price": 43.82,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 70.4",
-      "bias": "bearish",
-      "ticker": "MO",
-      "price": 68.88,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "MO",
-      "price": 68.88,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 80.6",
-      "bias": "bearish",
-      "ticker": "MOS",
-      "price": 25.85,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $25.78",
+      "type": "Pullback",
+      "detail": "4.4% below 7-day high of $181.32",
       "bias": "bullish",
-      "ticker": "MOS",
-      "price": 25.85,
-      "date": "2026-09-04"
+      "ticker": "HSY",
+      "price": 173.27,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 76.0",
+      "type": "Death Cross",
+      "detail": "SMA50 crossed below SMA200",
       "bias": "bearish",
-      "ticker": "MPC",
-      "price": 388.9,
-      "date": "2026-09-04"
+      "ticker": "HUBB",
+      "price": 464.75,
+      "date": "2026-09-08"
     },
     {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $387.71",
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 21.7",
       "bias": "bullish",
-      "ticker": "MPC",
-      "price": 388.9,
-      "date": "2026-09-04"
+      "ticker": "HWM",
+      "price": 231.53,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.4% below 7-day high of $97.20",
+      "bias": "bullish",
+      "ticker": "IBKR",
+      "price": 90.97,
+      "date": "2026-09-08"
     },
     {
       "type": "Hammer",
       "detail": "Hammer candlestick on the latest bar",
       "bias": "bullish",
-      "ticker": "MPC",
-      "price": 388.9,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 20.0",
-      "bias": "bullish",
-      "ticker": "MPWR",
-      "price": 1223.86,
-      "date": "2026-09-04"
+      "ticker": "IBM",
+      "price": 232.09,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "6.7% below 7-day high of $1311.08",
+      "detail": "4.1% below 7-day high of $164.59",
       "bias": "bullish",
-      "ticker": "MPWR",
-      "price": 1223.86,
-      "date": "2026-09-04"
+      "ticker": "ICE",
+      "price": 157.76,
+      "date": "2026-09-08"
     },
     {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "MRK",
-      "price": 150.33,
-      "date": "2026-09-04"
+      "type": "Pullback",
+      "detail": "6.6% below 7-day high of $556.69",
+      "bias": "bullish",
+      "ticker": "IDXX",
+      "price": 520.21,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.6% below 7-day high of $233.98",
+      "bias": "bullish",
+      "ticker": "IEX",
+      "price": 225.66,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "IEX",
+      "price": 225.66,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "IFF",
+      "price": 85.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.4% below 7-day high of $128.83",
+      "bias": "bullish",
+      "ticker": "INCY",
+      "price": 124.4,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "INCY",
+      "price": 124.4,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 27.4",
+      "bias": "bullish",
+      "ticker": "INVH",
+      "price": 28.22,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.5% below 7-day high of $29.24",
+      "bias": "bullish",
+      "ticker": "INVH",
+      "price": 28.22,
+      "date": "2026-09-08"
     },
     {
       "type": "Shooting Star",
       "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "MRK",
-      "price": 150.33,
-      "date": "2026-09-04"
+      "ticker": "IP",
+      "price": 36.49,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.7% below 7-day high of $154.27",
+      "detail": "4.6% below 7-day high of $271.62",
       "bias": "bullish",
-      "ticker": "MRNA",
-      "price": 145.55,
-      "date": "2026-09-04"
+      "ticker": "IQV",
+      "price": 259.21,
+      "date": "2026-09-08"
     },
     {
-      "type": "Bearish Engulfing",
-      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $78.97",
+      "bias": "bullish",
+      "ticker": "IR",
+      "price": 75.11,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
-      "ticker": "MRNA",
-      "price": 145.55,
-      "date": "2026-09-04"
+      "ticker": "IR",
+      "price": 75.11,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 29.6",
+      "bias": "bullish",
+      "ticker": "IRM",
+      "price": 116.08,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.9% below 7-day high of $193.26",
+      "detail": "5.4% below 7-day high of $122.69",
       "bias": "bullish",
-      "ticker": "MRSH",
-      "price": 185.74,
-      "date": "2026-09-04"
+      "ticker": "IRM",
+      "price": 116.08,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "IRM",
+      "price": 116.08,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 26.6",
+      "bias": "bullish",
+      "ticker": "ISRG",
+      "price": 350.16,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.1% below 7-day high of $376.86",
+      "bias": "bullish",
+      "ticker": "ISRG",
+      "price": 350.16,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 25.1",
+      "bias": "bullish",
+      "ticker": "ITW",
+      "price": 268.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.6% below 7-day high of $281.67",
+      "bias": "bullish",
+      "ticker": "ITW",
+      "price": 268.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "ITW",
+      "price": 268.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.1% below 7-day high of $151.98",
+      "bias": "bullish",
+      "ticker": "J",
+      "price": 144.27,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "JBL",
+      "price": 312.33,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $169.12",
+      "bias": "bullish",
+      "ticker": "JKHY",
+      "price": 159.83,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "JNJ",
+      "price": 269.12,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $278.43",
+      "bias": "bullish",
+      "ticker": "JNJ",
+      "price": 269.12,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "KDP",
+      "price": 32.55,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bullish Crossover",
       "detail": "MACD crossed above its signal line",
       "bias": "bullish",
-      "ticker": "MS",
-      "price": 217.72,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.7% below 7-day high of $491.24",
-      "bias": "bullish",
-      "ticker": "MSI",
-      "price": 468.05,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 29.0",
-      "bias": "bullish",
-      "ticker": "MTD",
-      "price": 1345.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.4% below 7-day high of $1407.43",
-      "bias": "bullish",
-      "ticker": "MTD",
-      "price": 1345.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "MTD",
-      "price": 1345.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $1011.75",
-      "bias": "bullish",
-      "ticker": "MU",
-      "price": 1016.59,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 17.3",
-      "bias": "bullish",
-      "ticker": "NCLH",
-      "price": 15.57,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.8% below 7-day high of $334.58",
-      "bias": "bullish",
-      "ticker": "NDSN",
-      "price": 318.36,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "NDSN",
-      "price": 318.36,
-      "date": "2026-09-04"
+      "ticker": "KEYS",
+      "price": 333.42,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bearish Crossover",
       "detail": "MACD crossed below its signal line",
       "bias": "bearish",
-      "ticker": "NFLX",
-      "price": 78.25,
-      "date": "2026-09-04"
+      "ticker": "KHC",
+      "price": 24.9,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.4% below 7-day high of $82.73",
+      "detail": "3.7% below 7-day high of $25.85",
       "bias": "bullish",
-      "ticker": "NFLX",
-      "price": 78.25,
-      "date": "2026-09-04"
+      "ticker": "KHC",
+      "price": 24.9,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $109.76",
+      "bias": "bullish",
+      "ticker": "KKR",
+      "price": 105.73,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "KKR",
+      "price": 105.73,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "NI",
-      "price": 41.39,
-      "date": "2026-09-04"
+      "ticker": "KLAC",
+      "price": 188.98,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.3% below 7-day high of $108.68",
+      "bias": "bullish",
+      "ticker": "KMB",
+      "price": 102.93,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "KMI",
+      "price": 31.98,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.2% below 7-day high of $19.20",
+      "bias": "bullish",
+      "ticker": "KVUE",
+      "price": 18.39,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "L",
+      "price": 108.25,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 27.1",
+      "detail": "RSI14 = 28.8",
       "bias": "bullish",
-      "ticker": "NOC",
-      "price": 514.98,
-      "date": "2026-09-04"
+      "ticker": "LDOS",
+      "price": 129.24,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.9% below 7-day high of $547.46",
+      "detail": "6.9% below 7-day high of $86.33",
       "bias": "bullish",
-      "ticker": "NOC",
-      "price": 514.98,
-      "date": "2026-09-04"
+      "ticker": "LEN",
+      "price": 80.37,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.5% below 7-day high of $147.99",
+      "detail": "3.3% below 7-day high of $335.82",
       "bias": "bullish",
-      "ticker": "NOW",
-      "price": 141.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "NRG",
-      "price": 119.02,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.6% below 7-day high of $352.68",
-      "bias": "bullish",
-      "ticker": "NSC",
-      "price": 329.46,
-      "date": "2026-09-04"
+      "ticker": "LH",
+      "price": 324.86,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 28.5",
+      "detail": "RSI14 = 17.1",
       "bias": "bullish",
-      "ticker": "NTAP",
-      "price": 185.59,
-      "date": "2026-09-04"
+      "ticker": "LHX",
+      "price": 255.74,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.3% below 7-day high of $193.85",
+      "detail": "3.5% below 7-day high of $264.98",
       "bias": "bullish",
-      "ticker": "NTAP",
-      "price": 185.59,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Hammer",
-      "detail": "Hammer candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "NTRS",
-      "price": 186.63,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $228.45",
-      "bias": "bullish",
-      "ticker": "NVDA",
-      "price": 230.36,
-      "date": "2026-09-04"
+      "ticker": "LHX",
+      "price": 255.74,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bearish Crossover",
       "detail": "MACD crossed below its signal line",
       "bias": "bearish",
-      "ticker": "NVR",
-      "price": 6298.85,
-      "date": "2026-09-04"
+      "ticker": "LIN",
+      "price": 468.38,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.0% below 7-day high of $35.32",
+      "detail": "4.0% below 7-day high of $487.97",
       "bias": "bullish",
-      "ticker": "NWS",
-      "price": 33.9,
-      "date": "2026-09-04"
+      "ticker": "LIN",
+      "price": 468.38,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "LITE",
+      "price": 978.53,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $968.90",
+      "bias": "bullish",
+      "ticker": "LITE",
+      "price": 978.53,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 28.8",
+      "bias": "bullish",
+      "ticker": "LLY",
+      "price": 1123.91,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.4% below 7-day high of $1176.10",
+      "bias": "bullish",
+      "ticker": "LLY",
+      "price": 1123.91,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 19.8",
+      "bias": "bullish",
+      "ticker": "LMT",
+      "price": 536.15,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.7% below 7-day high of $562.41",
+      "bias": "bullish",
+      "ticker": "LMT",
+      "price": 536.15,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.5% below 7-day high of $208.05",
+      "bias": "bullish",
+      "ticker": "LOW",
+      "price": 200.8,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "LRCX",
+      "price": 320.42,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "LYB",
+      "price": 64.59,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.2% below 7-day high of $181.65",
+      "bias": "bullish",
+      "ticker": "LYV",
+      "price": 170.45,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.1% below 7-day high of $595.30",
+      "bias": "bullish",
+      "ticker": "MA",
+      "price": 570.89,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "MAA",
+      "price": 127.89,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 21.7",
+      "bias": "bullish",
+      "ticker": "MAR",
+      "price": 328.79,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.1% below 7-day high of $353.87",
+      "bias": "bullish",
+      "ticker": "MAR",
+      "price": 328.79,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.2% below 7-day high of $73.25",
+      "bias": "bullish",
+      "ticker": "MAS",
+      "price": 70.93,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "MCHP",
+      "price": 73.38,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.9% below 7-day high of $924.78",
+      "bias": "bullish",
+      "ticker": "MCK",
+      "price": 889.12,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "MCK",
+      "price": 889.12,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.5% below 7-day high of $514.95",
+      "bias": "bullish",
+      "ticker": "MCO",
+      "price": 481.25,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.8% below 7-day high of $99.23",
+      "bias": "bullish",
+      "ticker": "MET",
+      "price": 95.5,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 71.5",
+      "detail": "RSI14 = 85.5",
       "bias": "bearish",
-      "ticker": "NWSA",
-      "price": 30.39,
-      "date": "2026-09-04"
+      "ticker": "META",
+      "price": 613.48,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 26.5",
+      "bias": "bullish",
+      "ticker": "MGM",
+      "price": 40.74,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.2% below 7-day high of $42.97",
+      "bias": "bullish",
+      "ticker": "MGM",
+      "price": 40.74,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.2% below 7-day high of $55.33",
+      "bias": "bullish",
+      "ticker": "MKC",
+      "price": 51.9,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "NXPI",
-      "price": 227.84,
-      "date": "2026-09-04"
+      "ticker": "MKC",
+      "price": 51.9,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.4% below 7-day high of $530.19",
+      "bias": "bullish",
+      "ticker": "MLM",
+      "price": 511.98,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
       "detail": "RSI14 = 15.9",
       "bias": "bullish",
-      "ticker": "ODFL",
-      "price": 185.87,
-      "date": "2026-09-04"
+      "ticker": "MMM",
+      "price": 167.52,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "6.9% below 7-day high of $199.75",
+      "detail": "6.3% below 7-day high of $178.83",
       "bias": "bullish",
-      "ticker": "ODFL",
-      "price": 185.87,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "ODFL",
-      "price": 185.87,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.4% below 7-day high of $88.28",
-      "bias": "bullish",
-      "ticker": "OMC",
-      "price": 82.62,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 29.3",
-      "bias": "bullish",
-      "ticker": "ON",
-      "price": 74.38,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $156.22",
-      "bias": "bullish",
-      "ticker": "ORCL",
-      "price": 158.78,
-      "date": "2026-09-04"
+      "ticker": "MMM",
+      "price": 167.52,
+      "date": "2026-09-08"
     },
     {
       "type": "Hammer",
       "detail": "Hammer candlestick on the latest bar",
       "bias": "bullish",
-      "ticker": "ORCL",
-      "price": 158.78,
-      "date": "2026-09-04"
+      "ticker": "MMM",
+      "price": 167.52,
+      "date": "2026-09-08"
     },
     {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 22.3",
       "bias": "bullish",
-      "ticker": "ORLY",
-      "price": 87.89,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "OXY",
-      "price": 60.04,
-      "date": "2026-09-04"
+      "ticker": "MNST",
+      "price": 43.15,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.4% below 7-day high of $127.34",
+      "detail": "7.9% below 7-day high of $46.86",
       "bias": "bullish",
-      "ticker": "PAYX",
-      "price": 121.71,
-      "date": "2026-09-04"
+      "ticker": "MNST",
+      "price": 43.15,
+      "date": "2026-09-08"
     },
     {
-      "type": "Pullback",
-      "detail": "3.5% below 7-day high of $129.23",
-      "bias": "bullish",
-      "ticker": "PCAR",
-      "price": 124.7,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 83.1",
       "bias": "bearish",
-      "ticker": "PCAR",
-      "price": 124.7,
-      "date": "2026-09-04"
+      "ticker": "MOS",
+      "price": 26.53,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $25.85",
+      "bias": "bullish",
+      "ticker": "MOS",
+      "price": 26.53,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 76.3",
+      "bias": "bearish",
+      "ticker": "MPC",
+      "price": 397.77,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $388.90",
+      "bias": "bullish",
+      "ticker": "MPC",
+      "price": 397.77,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 26.4",
+      "bias": "bullish",
+      "ticker": "MPWR",
+      "price": 1218.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.1% below 7-day high of $1311.08",
+      "bias": "bullish",
+      "ticker": "MPWR",
+      "price": 1218.5,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "PEP",
-      "price": 137.63,
-      "date": "2026-09-04"
+      "ticker": "MRK",
+      "price": 148.46,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bearish Crossover",
       "detail": "MACD crossed below its signal line",
       "bias": "bearish",
+      "ticker": "MRNA",
+      "price": 140.33,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.3% below 7-day high of $192.64",
+      "bias": "bullish",
+      "ticker": "MRSH",
+      "price": 180.52,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.6% below 7-day high of $241.45",
+      "bias": "bullish",
+      "ticker": "MRVL",
+      "price": 225.41,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.0% below 7-day high of $574.65",
+      "bias": "bullish",
+      "ticker": "MSCI",
+      "price": 551.39,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.8% below 7-day high of $513.53",
+      "bias": "bullish",
+      "ticker": "MSFT",
+      "price": 493.95,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.8% below 7-day high of $491.24",
+      "bias": "bullish",
+      "ticker": "MSI",
+      "price": 462.98,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "MTB",
+      "price": 238.44,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 28.7",
+      "bias": "bullish",
+      "ticker": "MTD",
+      "price": 1325.52,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.8% below 7-day high of $1407.43",
+      "bias": "bullish",
+      "ticker": "MTD",
+      "price": 1325.52,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "MTD",
+      "price": 1325.52,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 19.2",
+      "bias": "bullish",
+      "ticker": "NCLH",
+      "price": 15.39,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.6% below 7-day high of $16.65",
+      "bias": "bullish",
+      "ticker": "NCLH",
+      "price": 15.39,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "NCLH",
+      "price": 15.39,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "NCLH",
+      "price": 15.39,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.3% below 7-day high of $99.35",
+      "bias": "bullish",
+      "ticker": "NDAQ",
+      "price": 95.04,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.2% below 7-day high of $330.84",
+      "bias": "bullish",
+      "ticker": "NDSN",
+      "price": 316.8,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "NEE",
+      "price": 83.83,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.7% below 7-day high of $132.02",
+      "bias": "bullish",
+      "ticker": "NEM",
+      "price": 127.09,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "NEM",
+      "price": 127.09,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.2% below 7-day high of $82.73",
+      "bias": "bullish",
+      "ticker": "NFLX",
+      "price": 76.77,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "NKE",
+      "price": 38.1,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 15.9",
+      "bias": "bullish",
+      "ticker": "NOC",
+      "price": 518.58,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.5% below 7-day high of $543.10",
+      "bias": "bullish",
+      "ticker": "NOC",
+      "price": 518.58,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "NOW",
+      "price": 134.21,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.0% below 7-day high of $348.68",
+      "bias": "bullish",
+      "ticker": "NSC",
+      "price": 327.92,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "NSC",
+      "price": 327.92,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.4% below 7-day high of $6396.27",
+      "bias": "bullish",
+      "ticker": "NVR",
+      "price": 6116.86,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.6% below 7-day high of $35.32",
+      "bias": "bullish",
+      "ticker": "NWS",
+      "price": 33.34,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.4% below 7-day high of $31.19",
+      "bias": "bullish",
+      "ticker": "NWSA",
+      "price": 29.82,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "O",
+      "price": 61.02,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 20.4",
+      "bias": "bullish",
+      "ticker": "ODFL",
+      "price": 187.01,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.4% below 7-day high of $199.75",
+      "bias": "bullish",
+      "ticker": "ODFL",
+      "price": 187.01,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "ODFL",
+      "price": 187.01,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $97.07",
+      "bias": "bullish",
+      "ticker": "OKE",
+      "price": 97.51,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.0% below 7-day high of $74.80",
+      "bias": "bullish",
+      "ticker": "ON",
+      "price": 71.08,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $158.78",
+      "bias": "bullish",
+      "ticker": "ORCL",
+      "price": 162.52,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $88.80",
+      "bias": "bullish",
+      "ticker": "ORLY",
+      "price": 85.89,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "OXY",
+      "price": 60.65,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.2% below 7-day high of $126.54",
+      "bias": "bullish",
+      "ticker": "PCAR",
+      "price": 122.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "PEP",
+      "price": 138.45,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.2% below 7-day high of $29.02",
+      "bias": "bullish",
       "ticker": "PFE",
-      "price": 28.45,
-      "date": "2026-09-04"
+      "price": 27.79,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
       "ticker": "PG",
-      "price": 146.44,
-      "date": "2026-09-04"
+      "price": 145.58,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.5",
-      "bias": "bullish",
-      "ticker": "PH",
-      "price": 962.59,
-      "date": "2026-09-04"
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "PGR",
+      "price": 214.9,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "7.2% below 7-day high of $1037.40",
+      "detail": "4.0% below 7-day high of $223.87",
+      "bias": "bullish",
+      "ticker": "PGR",
+      "price": 214.9,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 28.2",
       "bias": "bullish",
       "ticker": "PH",
-      "price": 962.59,
-      "date": "2026-09-04"
+      "price": 955.87,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.3% below 7-day high of $1009.17",
+      "bias": "bullish",
+      "ticker": "PH",
+      "price": 955.87,
+      "date": "2026-09-08"
     },
     {
       "type": "Shooting Star",
       "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
       "ticker": "PH",
-      "price": 962.59,
-      "date": "2026-09-04"
+      "price": 955.87,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.3% below 7-day high of $130.03",
+      "detail": "6.6% below 7-day high of $128.55",
       "bias": "bullish",
       "ticker": "PHM",
-      "price": 124.45,
-      "date": "2026-09-04"
+      "price": 120.07,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.8% below 7-day high of $246.68",
+      "detail": "4.8% below 7-day high of $243.69",
       "bias": "bullish",
       "ticker": "PKG",
-      "price": 237.25,
-      "date": "2026-09-04"
+      "price": 231.99,
+      "date": "2026-09-08"
     },
     {
       "type": "Bullish Engulfing",
       "detail": "Bullish Engulfing candlestick on the latest bar",
       "bias": "bullish",
-      "ticker": "PKG",
-      "price": 237.25,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.7% below 7-day high of $142.59",
-      "bias": "bullish",
       "ticker": "PLD",
-      "price": 137.34,
-      "date": "2026-09-04"
+      "price": 138.48,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "6.5% below 7-day high of $186.38",
-      "bias": "bullish",
-      "ticker": "PLTR",
-      "price": 174.33,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.0% below 7-day high of $194.10",
+      "detail": "3.7% below 7-day high of $191.89",
       "bias": "bullish",
       "ticker": "PM",
-      "price": 182.53,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.2% below 7-day high of $62.86",
-      "bias": "bullish",
-      "ticker": "PNR",
-      "price": 60.21,
-      "date": "2026-09-04"
+      "price": 184.73,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
       "detail": "RSI14 = 29.1",
       "bias": "bullish",
-      "ticker": "PNW",
-      "price": 97.52,
-      "date": "2026-09-04"
+      "ticker": "PNR",
+      "price": 58.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.6% below 7-day high of $62.10",
+      "bias": "bullish",
+      "ticker": "PNR",
+      "price": 58.62,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $150.58",
+      "bias": "bullish",
+      "ticker": "PODD",
+      "price": 142.28,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.9% below 7-day high of $114.22",
+      "bias": "bullish",
+      "ticker": "PPG",
+      "price": 109.72,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "PPL",
+      "price": 35.08,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.1% below 7-day high of $123.20",
+      "bias": "bullish",
+      "ticker": "PRU",
+      "price": 119.38,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 25.5",
+      "bias": "bullish",
+      "ticker": "PSA",
+      "price": 301.6,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.8% below 7-day high of $313.51",
+      "bias": "bullish",
+      "ticker": "PSA",
+      "price": 301.6,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "PSA",
+      "price": 301.6,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "PSKY",
+      "price": 10.8,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $256.09",
+      "bias": "bullish",
+      "ticker": "PSX",
+      "price": 259.14,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 73.6",
+      "bias": "bearish",
+      "ticker": "QCOM",
+      "price": 174.09,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $169.56",
+      "bias": "bullish",
+      "ticker": "QCOM",
+      "price": 174.09,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 12.5",
+      "bias": "bullish",
+      "ticker": "RCL",
+      "price": 264.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.1% below 7-day high of $284.80",
+      "bias": "bullish",
+      "ticker": "RCL",
+      "price": 264.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "RCL",
+      "price": 264.5,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $158.10",
+      "bias": "bullish",
+      "ticker": "RDDT",
+      "price": 149.38,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "REG",
+      "price": 75.93,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $852.03",
+      "bias": "bullish",
+      "ticker": "REGN",
+      "price": 810.31,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "RJF",
+      "price": 176.55,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 26.1",
+      "bias": "bullish",
+      "ticker": "RL",
+      "price": 347.23,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.9% below 7-day high of $36.38",
+      "bias": "bullish",
+      "ticker": "ROL",
+      "price": 34.95,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "7.2% below 7-day high of $426.20",
+      "bias": "bullish",
+      "ticker": "ROP",
+      "price": 395.65,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 12.0",
+      "bias": "bullish",
+      "ticker": "RTX",
+      "price": 198.81,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.3% below 7-day high of $212.08",
+      "bias": "bullish",
+      "ticker": "RTX",
+      "price": 198.81,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "RTX",
+      "price": 198.81,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 71.6",
+      "bias": "bearish",
+      "ticker": "RVTY",
+      "price": 127.08,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.4% below 7-day high of $107.85",
+      "bias": "bullish",
+      "ticker": "SBUX",
+      "price": 102.01,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.2% below 7-day high of $110.38",
+      "bias": "bullish",
+      "ticker": "SCHW",
+      "price": 106.87,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $345.21",
+      "bias": "bullish",
+      "ticker": "SHW",
+      "price": 326.09,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.8% below 7-day high of $132.34",
+      "bias": "bullish",
+      "ticker": "SJM",
+      "price": 124.66,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.5% below 7-day high of $59.79",
+      "bias": "bullish",
+      "ticker": "SLB",
+      "price": 57.1,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bullish Crossover",
       "detail": "MACD crossed above its signal line",
       "bias": "bullish",
-      "ticker": "PPL",
-      "price": 35.11,
-      "date": "2026-09-04"
+      "ticker": "SMCI",
+      "price": 40.26,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "PRU",
-      "price": 122.02,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 25.1",
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $39.84",
       "bias": "bullish",
-      "ticker": "PSA",
-      "price": 302.01,
-      "date": "2026-09-04"
+      "ticker": "SMCI",
+      "price": 40.26,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "SMCI",
+      "price": 40.26,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.8% below 7-day high of $317.37",
+      "detail": "4.0% below 7-day high of $395.84",
       "bias": "bullish",
-      "ticker": "PSA",
-      "price": 302.01,
-      "date": "2026-09-04"
+      "ticker": "SNA",
+      "price": 379.88,
+      "date": "2026-09-08"
     },
     {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 22.6",
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
       "bias": "bullish",
-      "ticker": "PWR",
-      "price": 624.41,
-      "date": "2026-09-04"
+      "ticker": "SPG",
+      "price": 211.88,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "PWR",
-      "price": 624.41,
-      "date": "2026-09-04"
+      "type": "Pullback",
+      "detail": "4.7% below 7-day high of $450.58",
+      "bias": "bullish",
+      "ticker": "SPGI",
+      "price": 429.31,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
       "detail": "RSI14 = 28.1",
       "bias": "bullish",
-      "ticker": "Q",
-      "price": 120.47,
-      "date": "2026-09-04"
+      "ticker": "STE",
+      "price": 218.44,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.6% below 7-day high of $126.27",
+      "detail": "6.3% below 7-day high of $233.07",
       "bias": "bullish",
-      "ticker": "Q",
-      "price": 120.47,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "Q",
-      "price": 120.47,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 12.3",
-      "bias": "bullish",
-      "ticker": "RCL",
-      "price": 265.19,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "RCL",
-      "price": 265.19,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "REG",
-      "price": 75.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 27.3",
-      "bias": "bullish",
-      "ticker": "RL",
-      "price": 351.2,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.1% below 7-day high of $362.32",
-      "bias": "bullish",
-      "ticker": "RL",
-      "price": 351.2,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.0% below 7-day high of $240.33",
-      "bias": "bullish",
-      "ticker": "RMD",
-      "price": 228.35,
-      "date": "2026-09-04"
+      "ticker": "STE",
+      "price": 218.44,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bullish Crossover",
       "detail": "MACD crossed above its signal line",
       "bias": "bullish",
-      "ticker": "ROK",
-      "price": 433.81,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.4% below 7-day high of $426.20",
-      "bias": "bullish",
-      "ticker": "ROP",
-      "price": 407.28,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "ROST",
-      "price": 230.69,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "RSG",
-      "price": 222.71,
-      "date": "2026-09-04"
+      "ticker": "STX",
+      "price": 904.38,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 21.8",
+      "detail": "RSI14 = 28.4",
       "bias": "bullish",
-      "ticker": "RTX",
-      "price": 200.79,
-      "date": "2026-09-04"
+      "ticker": "STZ",
+      "price": 120.98,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.3% below 7-day high of $212.08",
+      "detail": "8.0% below 7-day high of $131.43",
       "bias": "bullish",
-      "ticker": "RTX",
-      "price": 200.79,
-      "date": "2026-09-04"
+      "ticker": "STZ",
+      "price": 120.98,
+      "date": "2026-09-08"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "RTX",
-      "price": 200.79,
-      "date": "2026-09-04"
+      "type": "Bearish Engulfing",
+      "detail": "Bearish Engulfing candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "SW",
+      "price": 44.26,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.5% below 7-day high of $99.24",
+      "bias": "bullish",
+      "ticker": "SWK",
+      "price": 93.81,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Overbought",
       "detail": "RSI14 = 73.4",
       "bias": "bearish",
-      "ticker": "RVTY",
-      "price": 130.22,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "RVTY",
-      "price": 130.22,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "SBAC",
-      "price": 189.44,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.7% below 7-day high of $108.49",
-      "bias": "bullish",
-      "ticker": "SBUX",
-      "price": 104.47,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.3% below 7-day high of $348.66",
-      "bias": "bullish",
-      "ticker": "SHW",
-      "price": 333.71,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "SJM",
-      "price": 126.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.7% below 7-day high of $132.34",
-      "bias": "bullish",
-      "ticker": "SJM",
-      "price": 126.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.8% below 7-day high of $59.79",
-      "bias": "bullish",
-      "ticker": "SLB",
-      "price": 57.51,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 28.5",
-      "bias": "bullish",
-      "ticker": "SNA",
-      "price": 383.0,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.6% below 7-day high of $397.48",
-      "bias": "bullish",
-      "ticker": "SNA",
-      "price": 383.0,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "SNA",
-      "price": 383.0,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "SNPS",
-      "price": 393.84,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 24.8",
-      "bias": "bullish",
-      "ticker": "SO",
-      "price": 88.11,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 80.2",
-      "bias": "bearish",
-      "ticker": "SOLV",
-      "price": 91.69,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "SOLV",
-      "price": 91.69,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 25.4",
-      "bias": "bullish",
-      "ticker": "SPG",
-      "price": 209.44,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.5% below 7-day high of $217.11",
-      "bias": "bullish",
-      "ticker": "SPG",
-      "price": 209.44,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "SRE",
-      "price": 84.04,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.9% below 7-day high of $236.05",
-      "bias": "bullish",
-      "ticker": "STE",
-      "price": 224.59,
-      "date": "2026-09-04"
+      "ticker": "SWKS",
+      "price": 75.38,
+      "date": "2026-09-08"
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $193.94",
-      "bias": "bullish",
-      "ticker": "STT",
-      "price": 194.26,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.7% below 7-day high of $134.45",
-      "bias": "bullish",
-      "ticker": "STZ",
-      "price": 128.18,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "7.5% below 7-day high of $49.56",
-      "bias": "bullish",
-      "ticker": "SW",
-      "price": 45.83,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $71.67",
+      "detail": "Closed above 30-day high of $74.02",
       "bias": "bullish",
       "ticker": "SWKS",
-      "price": 74.02,
-      "date": "2026-09-04"
+      "price": 75.38,
+      "date": "2026-09-08"
     },
     {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 22.1",
+      "bias": "bullish",
       "ticker": "SYK",
-      "price": 303.13,
-      "date": "2026-09-04"
+      "price": 276.43,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.9% below 7-day high of $83.27",
+      "detail": "3.2% below 7-day high of $82.45",
       "bias": "bullish",
       "ticker": "SYY",
-      "price": 80.05,
-      "date": "2026-09-04"
+      "price": 79.84,
+      "date": "2026-09-08"
     },
     {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "T",
-      "price": 25.68,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
+      "type": "Pullback",
+      "detail": "6.3% below 7-day high of $41.46",
+      "bias": "bullish",
       "ticker": "TAP",
-      "price": 40.5,
-      "date": "2026-09-04"
+      "price": 38.84,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 26.5",
+      "detail": "RSI14 = 24.5",
       "bias": "bullish",
       "ticker": "TDG",
-      "price": 1162.05,
-      "date": "2026-09-04"
+      "price": 1145.14,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.7% below 7-day high of $1207.06",
+      "detail": "3.5% below 7-day high of $1186.48",
       "bias": "bullish",
       "ticker": "TDG",
-      "price": 1162.05,
-      "date": "2026-09-04"
+      "price": 1145.14,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 16.6",
+      "bias": "bullish",
+      "ticker": "TDY",
+      "price": 605.08,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.4% below 7-day high of $626.50",
+      "bias": "bullish",
+      "ticker": "TDY",
+      "price": 605.08,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 7.6",
+      "bias": "bullish",
+      "ticker": "TJX",
+      "price": 128.92,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.6% below 7-day high of $135.12",
+      "bias": "bullish",
+      "ticker": "TJX",
+      "price": 128.92,
+      "date": "2026-09-08"
     },
     {
       "type": "Bullish Engulfing",
       "detail": "Bullish Engulfing candlestick on the latest bar",
       "bias": "bullish",
-      "ticker": "TDG",
-      "price": 1162.05,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 15.4",
-      "bias": "bullish",
-      "ticker": "TDY",
-      "price": 610.65,
-      "date": "2026-09-04"
+      "ticker": "TKO",
+      "price": 195.32,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.6% below 7-day high of $633.56",
-      "bias": "bullish",
-      "ticker": "TDY",
-      "price": 610.65,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "TEL",
-      "price": 208.65,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "TEL",
-      "price": 208.65,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 23.7",
-      "bias": "bullish",
-      "ticker": "TER",
-      "price": 357.03,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.0% below 7-day high of $371.92",
-      "bias": "bullish",
-      "ticker": "TER",
-      "price": 357.03,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bullish Crossover",
-      "detail": "MACD crossed above its signal line",
-      "bias": "bullish",
-      "ticker": "TFC",
-      "price": 51.65,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "TGT",
-      "price": 164.44,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 8.6",
-      "bias": "bullish",
-      "ticker": "TJX",
-      "price": 132.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.5% below 7-day high of $136.83",
-      "bias": "bullish",
-      "ticker": "TJX",
-      "price": 132.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "TJX",
-      "price": 132.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.1% below 7-day high of $633.71",
+      "detail": "4.4% below 7-day high of $630.70",
       "bias": "bullish",
       "ticker": "TMO",
-      "price": 613.78,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.5% below 7-day high of $188.02",
-      "bias": "bullish",
-      "ticker": "TMUS",
-      "price": 181.52,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.0% below 7-day high of $373.74",
-      "bias": "bullish",
-      "ticker": "TPL",
-      "price": 362.42,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.9% below 7-day high of $129.76",
-      "bias": "bullish",
-      "ticker": "TPR",
-      "price": 122.14,
-      "date": "2026-09-04"
+      "price": 603.02,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "TPR",
-      "price": 122.14,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "TPR",
-      "price": 122.14,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "TRGP",
-      "price": 290.05,
-      "date": "2026-09-04"
+      "ticker": "TMO",
+      "price": 603.02,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.4% below 7-day high of $61.54",
+      "detail": "3.4% below 7-day high of $188.02",
+      "bias": "bullish",
+      "ticker": "TMUS",
+      "price": 181.69,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "RSI Oversold",
+      "detail": "RSI14 = 22.3",
+      "bias": "bullish",
+      "ticker": "TPR",
+      "price": 117.58,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.9% below 7-day high of $125.02",
+      "bias": "bullish",
+      "ticker": "TPR",
+      "price": 117.58,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.5% below 7-day high of $61.54",
       "bias": "bullish",
       "ticker": "TRMB",
-      "price": 59.47,
-      "date": "2026-09-04"
+      "price": 58.78,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "TRMB",
+      "price": 58.78,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
       "ticker": "TROW",
-      "price": 109.78,
-      "date": "2026-09-04"
+      "price": 109.42,
+      "date": "2026-09-08"
     },
     {
-      "type": "Pullback",
-      "detail": "5.9% below 7-day high of $376.37",
-      "bias": "bullish",
-      "ticker": "TSLA",
-      "price": 354.08,
-      "date": "2026-09-04"
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "TRV",
+      "price": 365.66,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 18.0",
+      "detail": "RSI14 = 25.6",
       "bias": "bullish",
       "ticker": "TSN",
-      "price": 51.42,
-      "date": "2026-09-04"
+      "price": 52.28,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.1% below 7-day high of $462.31",
+      "detail": "6.3% below 7-day high of $55.81",
       "bias": "bullish",
-      "ticker": "TT",
-      "price": 447.9,
-      "date": "2026-09-04"
+      "ticker": "TSN",
+      "price": 52.28,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.4% below 7-day high of $15.09",
+      "detail": "7.1% below 7-day high of $15.09",
       "bias": "bullish",
       "ticker": "TTD",
-      "price": 14.43,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bearish Engulfing",
-      "detail": "Bearish Engulfing candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "TTD",
-      "price": 14.43,
-      "date": "2026-09-04"
+      "price": 14.02,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 17.7",
+      "detail": "RSI14 = 15.6",
       "bias": "bullish",
       "ticker": "TTWO",
-      "price": 214.69,
-      "date": "2026-09-04"
+      "price": 213.29,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "TTWO",
+      "price": 213.29,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 28.3",
+      "detail": "RSI14 = 21.2",
       "bias": "bullish",
-      "ticker": "TXN",
-      "price": 258.44,
-      "date": "2026-09-04"
+      "ticker": "TXT",
+      "price": 79.54,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.0% below 7-day high of $266.54",
-      "bias": "bullish",
-      "ticker": "TXN",
-      "price": 258.44,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 17.6",
+      "detail": "4.2% below 7-day high of $83.04",
       "bias": "bullish",
       "ticker": "TXT",
-      "price": 79.07,
-      "date": "2026-09-04"
+      "price": 79.54,
+      "date": "2026-09-08"
     },
     {
-      "type": "Pullback",
-      "detail": "5.1% below 7-day high of $83.31",
-      "bias": "bullish",
-      "ticker": "TXT",
-      "price": 79.07,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 71.8",
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
       "bias": "bearish",
       "ticker": "TYL",
-      "price": 364.03,
-      "date": "2026-09-04"
+      "price": 347.82,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.0% below 7-day high of $379.27",
-      "bias": "bullish",
-      "ticker": "TYL",
-      "price": 364.03,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.0% below 7-day high of $114.83",
+      "detail": "3.7% below 7-day high of $112.39",
       "bias": "bullish",
       "ticker": "UAL",
-      "price": 111.38,
-      "date": "2026-09-04"
+      "price": 108.24,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.9% below 7-day high of $78.82",
+      "detail": "7.2% below 7-day high of $78.82",
       "bias": "bullish",
       "ticker": "UBER",
-      "price": 75.76,
-      "date": "2026-09-04"
+      "price": 73.13,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.1% below 7-day high of $37.93",
-      "bias": "bullish",
-      "ticker": "UDR",
-      "price": 36.38,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.9% below 7-day high of $178.48",
-      "bias": "bullish",
-      "ticker": "UHS",
-      "price": 169.65,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Overbought",
-      "detail": "RSI14 = 73.5",
-      "bias": "bearish",
-      "ticker": "ULTA",
-      "price": 564.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "ULTA",
-      "price": 564.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "UNH",
-      "price": 397.14,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "6.3% below 7-day high of $309.19",
+      "detail": "5.8% below 7-day high of $306.25",
       "bias": "bullish",
       "ticker": "UNP",
-      "price": 289.62,
-      "date": "2026-09-04"
+      "price": 288.45,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "UPS",
+      "price": 100.48,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.2% below 7-day high of $105.68",
+      "detail": "4.9% below 7-day high of $105.68",
       "bias": "bullish",
       "ticker": "UPS",
-      "price": 102.29,
-      "date": "2026-09-04"
+      "price": 100.48,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 18.7",
+      "detail": "RSI14 = 25.2",
       "bias": "bullish",
       "ticker": "URI",
-      "price": 1009.86,
-      "date": "2026-09-04"
+      "price": 1015.17,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.5% below 7-day high of $1057.66",
+      "detail": "3.4% below 7-day high of $381.60",
       "bias": "bullish",
-      "ticker": "URI",
-      "price": 1009.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
       "ticker": "V",
-      "price": 375.07,
-      "date": "2026-09-04"
+      "price": 368.64,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "VEEV",
+      "price": 264.84,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.7% below 7-day high of $285.69",
+      "detail": "7.3% below 7-day high of $285.69",
       "bias": "bullish",
       "ticker": "VEEV",
-      "price": 275.09,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "30-Day High",
-      "detail": "Closed above 30-day high of $370.69",
-      "bias": "bullish",
-      "ticker": "VLO",
-      "price": 370.72,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Hammer",
-      "detail": "Hammer candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "VLO",
-      "price": 370.72,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.3% below 7-day high of $274.51",
-      "bias": "bullish",
-      "ticker": "VMC",
-      "price": 262.63,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "4.4% below 7-day high of $194.35",
-      "bias": "bullish",
-      "ticker": "VRSK",
-      "price": 185.79,
-      "date": "2026-09-04"
+      "price": 264.84,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Overbought",
       "detail": "RSI14 = 73.5",
       "bias": "bearish",
-      "ticker": "VRSN",
-      "price": 292.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "VRSN",
-      "price": 292.08,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "VRTX",
-      "price": 546.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "VRTX",
-      "price": 546.12,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "VST",
-      "price": 149.3,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.5% below 7-day high of $93.50",
-      "bias": "bullish",
-      "ticker": "VTR",
-      "price": 90.27,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 29.0",
-      "bias": "bullish",
-      "ticker": "WAB",
-      "price": 282.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.9% below 7-day high of $300.54",
-      "bias": "bullish",
-      "ticker": "WAB",
-      "price": 282.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
-      "bias": "bullish",
-      "ticker": "WAB",
-      "price": 282.86,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "WAT",
-      "price": 409.38,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "5.4% below 7-day high of $206.92",
-      "bias": "bullish",
-      "ticker": "WDAY",
-      "price": 195.79,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Bearish Engulfing",
-      "detail": "Bearish Engulfing candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "WDAY",
-      "price": 195.79,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "MACD Bearish Crossover",
-      "detail": "MACD crossed below its signal line",
-      "bias": "bearish",
-      "ticker": "WELL",
-      "price": 236.17,
-      "date": "2026-09-04"
+      "ticker": "VLO",
+      "price": 382.85,
+      "date": "2026-09-08"
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $89.27",
+      "detail": "Closed above 30-day high of $370.72",
       "bias": "bullish",
-      "ticker": "WFC",
-      "price": 89.97,
-      "date": "2026-09-04"
+      "ticker": "VLO",
+      "price": 382.85,
+      "date": "2026-09-08"
     },
     {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "type": "Pullback",
+      "detail": "3.1% below 7-day high of $98.57",
       "bias": "bullish",
-      "ticker": "WFC",
-      "price": 89.97,
-      "date": "2026-09-04"
+      "ticker": "VLTO",
+      "price": 95.53,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "VLTO",
+      "price": 95.53,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "5.9% below 7-day high of $274.51",
+      "bias": "bullish",
+      "ticker": "VMC",
+      "price": 258.3,
+      "date": "2026-09-08"
     },
     {
       "type": "MACD Bullish Crossover",
       "detail": "MACD crossed above its signal line",
       "bias": "bullish",
-      "ticker": "WRB",
-      "price": 69.14,
-      "date": "2026-09-04"
+      "ticker": "VMRK",
+      "price": 66.19,
+      "date": "2026-09-08"
     },
     {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
       "bias": "bearish",
-      "ticker": "WRB",
-      "price": 69.14,
-      "date": "2026-09-04"
+      "ticker": "VRSK",
+      "price": 175.49,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "VRSN",
+      "price": 282.2,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "4.6% below 7-day high of $238.40",
+      "detail": "4.3% below 7-day high of $294.73",
       "bias": "bullish",
-      "ticker": "WSM",
-      "price": 227.42,
-      "date": "2026-09-04"
+      "ticker": "VRSN",
+      "price": 282.2,
+      "date": "2026-09-08"
     },
     {
-      "type": "Bullish Engulfing",
-      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "type": "Pullback",
+      "detail": "5.2% below 7-day high of $557.96",
       "bias": "bullish",
-      "ticker": "WSM",
-      "price": 227.42,
-      "date": "2026-09-04"
+      "ticker": "VRTX",
+      "price": 528.9,
+      "date": "2026-09-08"
     },
     {
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "WST",
-      "price": 339.97,
-      "date": "2026-09-04"
+      "ticker": "VRTX",
+      "price": 528.9,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "VST",
+      "price": 151.72,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.3% below 7-day high of $92.89",
+      "bias": "bullish",
+      "ticker": "VTR",
+      "price": 89.87,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "VTRS",
+      "price": 16.61,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.3% below 7-day high of $297.28",
+      "bias": "bullish",
+      "ticker": "WAB",
+      "price": 284.45,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.4% below 7-day high of $421.26",
+      "bias": "bullish",
+      "ticker": "WAT",
+      "price": 402.91,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "WDC",
+      "price": 477.3,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bullish Crossover",
+      "detail": "MACD crossed above its signal line",
+      "bias": "bullish",
+      "ticker": "WEC",
+      "price": 107.06,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "WEC",
+      "price": 107.06,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "WM",
+      "price": 217.78,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "30-Day High",
+      "detail": "Closed above 30-day high of $75.23",
+      "bias": "bullish",
+      "ticker": "WMB",
+      "price": 75.83,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.4% below 7-day high of $238.40",
+      "bias": "bullish",
+      "ticker": "WSM",
+      "price": 227.83,
+      "date": "2026-09-08"
     },
     {
       "type": "Shooting Star",
       "detail": "Shooting Star candlestick on the latest bar",
       "bias": "bearish",
       "ticker": "WST",
-      "price": 339.97,
-      "date": "2026-09-04"
+      "price": 337.75,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.5% below 7-day high of $23.86",
+      "detail": "5.4% below 7-day high of $343.75",
+      "bias": "bullish",
+      "ticker": "WTW",
+      "price": 325.34,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "WTW",
+      "price": 325.34,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "3.4% below 7-day high of $23.48",
       "bias": "bullish",
       "ticker": "WY",
-      "price": 23.02,
-      "date": "2026-09-04"
+      "price": 22.69,
+      "date": "2026-09-08"
     },
     {
       "type": "RSI Oversold",
-      "detail": "RSI14 = 18.5",
+      "detail": "RSI14 = 23.3",
       "bias": "bullish",
       "ticker": "WYNN",
-      "price": 91.54,
-      "date": "2026-09-04"
+      "price": 92.22,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "5.8% below 7-day high of $97.17",
+      "detail": "3.2% below 7-day high of $95.26",
       "bias": "bullish",
       "ticker": "WYNN",
-      "price": 91.54,
-      "date": "2026-09-04"
+      "price": 92.22,
+      "date": "2026-09-08"
     },
     {
-      "type": "Shooting Star",
-      "detail": "Shooting Star candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "WYNN",
-      "price": 91.54,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "Pullback",
-      "detail": "3.1% below 7-day high of $164.55",
+      "type": "Bullish Engulfing",
+      "detail": "Bullish Engulfing candlestick on the latest bar",
       "bias": "bullish",
+      "ticker": "XEL",
+      "price": 76.88,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
       "ticker": "XOM",
-      "price": 159.47,
-      "date": "2026-09-04"
-    },
-    {
-      "type": "RSI Oversold",
-      "detail": "RSI14 = 22.9",
-      "bias": "bullish",
-      "ticker": "XYL",
-      "price": 105.69,
-      "date": "2026-09-04"
+      "price": 160.66,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "6.5% below 7-day high of $112.99",
+      "detail": "3.4% below 7-day high of $112.65",
       "bias": "bullish",
       "ticker": "XYL",
-      "price": 105.69,
-      "date": "2026-09-04"
+      "price": 108.81,
+      "date": "2026-09-08"
     },
     {
       "type": "Pullback",
-      "detail": "3.3% below 7-day high of $101.38",
+      "detail": "5.6% below 7-day high of $84.85",
+      "bias": "bullish",
+      "ticker": "XYZ",
+      "price": 80.1,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "YUM",
+      "price": 149.51,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "6.6% below 7-day high of $100.91",
       "bias": "bullish",
       "ticker": "ZBH",
-      "price": 98.07,
-      "date": "2026-09-04"
+      "price": 94.22,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "MACD Bearish Crossover",
+      "detail": "MACD crossed below its signal line",
+      "bias": "bearish",
+      "ticker": "ZTS",
+      "price": 73.56,
+      "date": "2026-09-08"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.9% below 7-day high of $77.34",
+      "bias": "bullish",
+      "ticker": "ZTS",
+      "price": 73.56,
+      "date": "2026-09-08"
     }
   ],
   "setups": [],
