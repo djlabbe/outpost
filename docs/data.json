@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T23:44:54.268583+00:00",
+  "generated_at": "2026-10-20T00:29:32.995732+00:00",
   "ticker_count": 503,
-  "signal_count": 486,
+  "signal_count": 489,
   "setup_count": 0,
   "signals": [
     {
@@ -631,14 +631,6 @@
     {
       "type": "30-Day High",
       "detail": "Closed above 30-day high of $253.71",
-      "bias": "bullish",
-      "ticker": "CAH",
-      "price": 254.06,
-      "date": "2026-10-16"
-    },
-    {
-      "type": "Hammer",
-      "detail": "Hammer candlestick on the latest bar",
       "bias": "bullish",
       "ticker": "CAH",
       "price": 254.06,
@@ -1350,7 +1342,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 82.1",
+      "detail": "RSI14 = 82.7",
       "bias": "bearish",
       "ticker": "EOG",
       "price": 158.01,
@@ -1358,7 +1350,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $154.19",
+      "detail": "Closed above 30-day high of $153.16",
       "bias": "bullish",
       "ticker": "EOG",
       "price": 158.01,
@@ -1629,6 +1621,14 @@
       "date": "2026-10-16"
     },
     {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "GNRC",
+      "price": 192.68,
+      "date": "2026-10-16"
+    },
+    {
       "type": "MACD Bearish Crossover",
       "detail": "MACD crossed below its signal line",
       "bias": "bearish",
@@ -1706,6 +1706,14 @@
       "bias": "neutral",
       "ticker": "HAS",
       "price": 98.76,
+      "date": "2026-10-16"
+    },
+    {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "HBAN",
+      "price": 15.27,
       "date": "2026-10-16"
     },
     {
@@ -2501,14 +2509,6 @@
       "date": "2026-10-16"
     },
     {
-      "type": "Doji",
-      "detail": "Doji candlestick on the latest bar",
-      "bias": "neutral",
-      "ticker": "MNST",
-      "price": 45.73,
-      "date": "2026-10-16"
-    },
-    {
       "type": "RSI Overbought",
       "detail": "RSI14 = 78.3",
       "bias": "bearish",
@@ -2637,6 +2637,14 @@
       "date": "2026-10-16"
     },
     {
+      "type": "Shooting Star",
+      "detail": "Shooting Star candlestick on the latest bar",
+      "bias": "bearish",
+      "ticker": "NFLX",
+      "price": 70.53,
+      "date": "2026-10-16"
+    },
+    {
       "type": "RSI Overbought",
       "detail": "RSI14 = 85.0",
       "bias": "bearish",
@@ -2664,6 +2672,14 @@
       "type": "Pullback",
       "detail": "4.5% below 7-day high of $108.61",
       "bias": "bullish",
+      "ticker": "NRG",
+      "price": 103.75,
+      "date": "2026-10-16"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
       "ticker": "NRG",
       "price": 103.75,
       "date": "2026-10-16"
@@ -3629,11 +3645,19 @@
       "date": "2026-10-16"
     },
     {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "VRSK",
+      "price": 190.9,
+      "date": "2026-10-16"
+    },
+    {
       "type": "RSI Overbought",
       "detail": "RSI14 = 80.8",
       "bias": "bearish",
       "ticker": "VRSN",
-      "price": 302.33,
+      "price": 302.34,
       "date": "2026-10-16"
     },
     {
@@ -3641,7 +3665,7 @@
       "detail": "Bearish Engulfing candlestick on the latest bar",
       "bias": "bearish",
       "ticker": "VRSN",
-      "price": 302.33,
+      "price": 302.34,
       "date": "2026-10-16"
     },
     {
@@ -3782,7 +3806,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 72.0",
+      "detail": "RSI14 = 73.2",
       "bias": "bearish",
       "ticker": "WSM",
       "price": 250.16,
