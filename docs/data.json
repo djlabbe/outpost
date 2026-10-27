@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T23:54:52.322398+00:00",
+  "generated_at": "2026-10-27T00:39:47.600638+00:00",
   "ticker_count": 503,
-  "signal_count": 500,
+  "signal_count": 499,
   "setup_count": 0,
   "signals": [
     {
@@ -1550,7 +1550,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 71.3",
+      "detail": "RSI14 = 71.4",
       "bias": "bearish",
       "ticker": "GEHC",
       "price": 71.45,
@@ -1558,7 +1558,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $71.42",
+      "detail": "Closed above 30-day high of $71.38",
       "bias": "bullish",
       "ticker": "GEHC",
       "price": 71.45,
@@ -2742,7 +2742,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 71.1",
+      "detail": "RSI14 = 71.2",
       "bias": "bearish",
       "ticker": "NWSA",
       "price": 30.74,
@@ -2918,7 +2918,7 @@
     },
     {
       "type": "RSI Overbought",
-      "detail": "RSI14 = 72.2",
+      "detail": "RSI14 = 74.5",
       "bias": "bearish",
       "ticker": "PG",
       "price": 161.02,
@@ -3007,6 +3007,14 @@
     {
       "type": "30-Day High",
       "detail": "Closed above 30-day high of $148.12",
+      "bias": "bullish",
+      "ticker": "PODD",
+      "price": 149.01,
+      "date": "2026-10-23"
+    },
+    {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
       "bias": "bullish",
       "ticker": "PODD",
       "price": 149.01,
@@ -3206,7 +3214,7 @@
     },
     {
       "type": "30-Day High",
-      "detail": "Closed above 30-day high of $157.36",
+      "detail": "Closed above 30-day high of $157.29",
       "bias": "bullish",
       "ticker": "RVTY",
       "price": 158.77,
@@ -3597,14 +3605,6 @@
       "date": "2026-10-23"
     },
     {
-      "type": "Bearish Engulfing",
-      "detail": "Bearish Engulfing candlestick on the latest bar",
-      "bias": "bearish",
-      "ticker": "TTWO",
-      "price": 203.69,
-      "date": "2026-10-23"
-    },
-    {
       "type": "Pullback",
       "detail": "4.2% below 7-day high of $273.40",
       "bias": "bullish",
@@ -3712,14 +3712,6 @@
       "type": "Doji",
       "detail": "Doji candlestick on the latest bar",
       "bias": "neutral",
-      "ticker": "URI",
-      "price": 1098.88,
-      "date": "2026-10-23"
-    },
-    {
-      "type": "Hammer",
-      "detail": "Hammer candlestick on the latest bar",
-      "bias": "bullish",
       "ticker": "URI",
       "price": 1098.88,
       "date": "2026-10-23"
