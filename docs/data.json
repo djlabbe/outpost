@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T03:41:29.983359+00:00",
+  "generated_at": "2026-11-11T01:21:04.931175+00:00",
   "ticker_count": 503,
-  "signal_count": 425,
+  "signal_count": 427,
   "setup_count": 1,
   "signals": [
     {
@@ -26,6 +26,22 @@
       "bias": "bearish",
       "ticker": "ABNB",
       "price": 190.29,
+      "date": "2026-11-09"
+    },
+    {
+      "type": "Pullback",
+      "detail": "4.3% below 7-day high of $115.51",
+      "bias": "bullish",
+      "ticker": "ABT",
+      "price": 110.51,
+      "date": "2026-11-09"
+    },
+    {
+      "type": "Hammer",
+      "detail": "Hammer candlestick on the latest bar",
+      "bias": "bullish",
+      "ticker": "ABT",
+      "price": 110.51,
       "date": "2026-11-09"
     },
     {
