@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T03:41:15.669607+00:00",
+  "generated_at": "2026-11-27T03:42:20.556086+00:00",
   "ticker_count": 503,
-  "signal_count": 324,
+  "signal_count": 326,
   "setup_count": 0,
   "signals": [
     {
@@ -74,6 +74,22 @@
       "bias": "bullish",
       "ticker": "AEE",
       "price": 114.88,
+      "date": "2026-11-25"
+    },
+    {
+      "type": "RSI Overbought",
+      "detail": "RSI14 = 81.0",
+      "bias": "bearish",
+      "ticker": "AES",
+      "price": 15.02,
+      "date": "2026-11-25"
+    },
+    {
+      "type": "Doji",
+      "detail": "Doji candlestick on the latest bar",
+      "bias": "neutral",
+      "ticker": "AES",
+      "price": 15.02,
       "date": "2026-11-25"
     },
     {
